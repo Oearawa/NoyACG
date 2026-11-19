@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "count": {
+    "all": 5,
+    "sys_msg": 1,
+    "community_reply": 2,
+    "comment_reply": 2
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "routerMap": [
+    {
+      "name": "ComicDetail",
+      "pageSourceFile": "src/main/ets/pages/ComicDetail.ets",
+      "buildFunction": "ComicDetailBuilder",
+      "data": {
+        "description": "漫画详情页（含简介与章节列表）"
+      }
+    },
+    {
+      "name": "ComicReader",
+      "pageSourceFile": "src/main/ets/pages/ComicReader.ets",
+      "buildFunction": "ComicReaderBuilder",
+      "data": {
+        "description": "漫画阅读器（沉浸式长图阅读 / 水平翻页）"
+      }
+    },
+    {
+      "name": "SearchPage",
+      "pageSourceFile": "src/main/ets/pages/SearchPage.ets",
+      "buildFunction": "SearchPageBuilder",
+      "data": {
+        "description": "全局搜索页（历史 / 结果瀑布流 / 分页）"
+      }
+    },
+    {
+      "name": "LoginPage",
+      "pageSourceFile": "src/main/ets/pages/LoginPage.ets",
+      "buildFunction": "LoginPageBuilder",
+      "data": {
+        "description": "NoyAcg 账号登录页（原生表单 + 会话建立）"
+      }
+    },
+    {
+      "name": "DownloadPage",
+      "pageSourceFile": "src/main/ets/pages/DownloadPage.ets",
+      "buildFunction": "DownloadPageBuilder",
+      "data": {
+        "description": "下载管理与离线章节入口（任务队列 / 进度 / 删除 / 离线阅读）"
+      }
+    },
+    {
+      "name": "ProfilePage",
+      "pageSourceFile": "src/main/ets/pages/ProfilePage.ets",
+      "buildFunction": "ProfilePageBuilder",
+      "data": {
+        "description": "个人中心（阅读设置 / 图片缓存管理）"
+      }
+    },
+    {
+      "name": "SettingsPage",
+      "pageSourceFile": "src/main/ets/pages/SettingsPage.ets",
+      "buildFunction": "SettingsPageBuilder",
+      "data": {
+        "description": "设置页（内容类型分级 / 阅读方向）"
+      }
+    },
+    {
+      "name": "MessagePage",
+      "pageSourceFile": "src/main/ets/pages/MessagePage.ets",
+      "buildFunction": "MessagePageBuilder",
+      "data": {
+        "description": "消息中心（评论回复 / 社区回复 / 系统消息）"
+      }
+    },
+    {
+      "name": "HistoryPage",
+      "pageSourceFile": "src/main/ets/pages/HistoryPage.ets",
+      "buildFunction": "HistoryPageBuilder",
+      "data": {
+        "description": "阅读历史（本地 HistoryV2）"
+      }
+    },
+    {
+      "name": "AboutPage",
+      "pageSourceFile": "src/main/ets/pages/AboutPage.ets",
+      "buildFunction": "AboutPageBuilder",
+      "data": {
+        "description": "关于（版本 / HarmonyOS / UID / 许可）"
+      }
+    },
+    {
+      "name": "SectionListPage",
+      "pageSourceFile": "src/main/ets/pages/SectionListPage.ets",
+      "buildFunction": "SectionListPageBuilder",
+      "data": {
+        "description": "首页区块「更多」完整列表（复用 /api/home 已返回数据，不分页）"
+      }
+    },
+    {
+      "name": "RankPage",
+      "pageSourceFile": "src/main/ets/pages/RankPage.ets",
+      "buildFunction": "RankPageBuilder",
+      "data": {
+        "description": "排行榜页（阅读榜/收藏榜/高质量榜；官方 readLeaderboard/favLeaderboard/proportion；服务端数字分页；周期 day/week/moon）"
+      }
+    },
+    {
+      "name": "CategoryPage",
+      "pageSourceFile": "src/main/ets/pages/CategoryPage.ets",
+      "buildFunction": "CategoryPageBuilder",
+      "data": {
+        "description": "分类网格页（官方 bigtaglist 动态目录；cover 为漫画 Bid；点击 search.join(' ')||tag → mode=tag 搜索）"
+      }
+    },
+    {
+      "name": "PersonalizedPage",
+      "pageSourceFile": "src/main/ets/pages/PersonalizedPage.ets",
+      "buildFunction": "PersonalizedPageBuilder",
+      "data": {
+        "description": "个人化精选页（官方 favoritesrecommend；服务端数字分页；未登录转登录引导）"
+      }
+    },
+    {
+      "name": "BlockedTagsPage",
+      "pageSourceFile": "src/main/ets/pages/BlockedTagsPage.ets",
+      "buildFunction": "BlockedTagsPageBuilder",
+      "data": {
+        "description": "屏蔽标签管理（本机匿名 / 按账号隔离的本地黑名单；精确匹配；无云同步）"
+      }
+    },
+    {
+      "name": "CacheSettingsPage",
+      "pageSourceFile": "src/main/ets/pages/CacheSettingsPage.ets",
+      "buildFunction": "CacheSettingsPageBuilder",
+      "data": {
+        "description": "高级缓存配置（容量上限 500MB/1GB/无限制；按最近访问时间 LRU 清理；只作用于图片缓存目录）"
+      }
+    },
+    {
+      "name": "DiagnosticLogPage",
+      "pageSourceFile": "src/main/ets/pages/DiagnosticLogPage.ets",
+      "buildFunction": "DiagnosticLogPageBuilder",
+      "data": {
+        "description": "错误报告（应用内诊断日志查看 / 筛选 / 导出 / 清空；已脱敏）"
+      }
+    },
+    {
+      "name": "NetworkLogPage",
+      "pageSourceFile": "src/main/ets/pages/NetworkLogPage.ets",
+      "buildFunction": "NetworkLogPageBuilder",
+      "data": {
+        "description": "网络请求日志（本应用请求元数据；脱敏路径与状态；非抓包）"
+      }
+    },
+    {
+      "name": "CommunityPostDetailPage",
+      "pageSourceFile": "src/main/ets/pages/CommunityPostDetailPage.ets",
+      "buildFunction": "CommunityPostDetailPageBuilder",
+      "data": {
+        "description": "社区帖子详情与楼中楼交互页"
+      }
+    },
+    {
+      "name": "ShelfPage",
+      "pageSourceFile": "src/main/ets/pages/ShelfPage.ets",
+      "buildFunction": "ShelfPageBuilder",
+      "data": {
+        "description": "我的收藏独立页面（账号收藏与本地书架管理）"
+      }
+    },
+    {
+      "name": "OfflineBooksPage",
+      "pageSourceFile": "src/main/ets/pages/OfflineBooksPage.ets",
+      "buildFunction": "OfflineBooksPageBuilder",
+      "data": {
+        "description": "离线阅读页面（聚合已下载漫画与章节离线阅读）"
+      }
+    }
+  ]
+}

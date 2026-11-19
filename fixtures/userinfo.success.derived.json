@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "userinfo": {
+    "Uid": 900001,
+    "Name": "範例使用者",
+    "Username": "sample_user",
+    "Avatar": "avatar/900001.webp",
+    "Bg": "bg/900001.webp",
+    "Time": 1735689600,
+    "CommentLen": 12,
+    "Integral": 8888
+  }
+}

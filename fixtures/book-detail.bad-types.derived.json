@@ -1,0 +1,24 @@
+{
+  "book": {
+    "info": {
+      "Bid": 900303,
+      "Bookname": 12345,
+      "Author": { "unexpected": "object" },
+      "Description": ["not", "a", "string"],
+      "alias": 99,
+      "Ptag": 12345,
+      "Pname": 7,
+      "Otag": null,
+      "RatingSUM": "not-a-number",
+      "RatingCount": [],
+      "Mode": "weird",
+      "Status": "unknown-status",
+      "publish_year": {},
+      "Time": "n/a"
+    }
+  },
+  "chapters": {
+    "categories": "not-an-array",
+    "data": [1, 2, 3]
+  }
+}

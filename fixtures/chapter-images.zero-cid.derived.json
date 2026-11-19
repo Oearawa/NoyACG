@@ -1,0 +1,12 @@
+{
+  "chapter": {
+    "this": { "count": 2, "name": "單本" },
+    "next": { "count": 0 },
+    "last": { "count": 0 }
+  },
+  "data": {
+    "count": 9,
+    "name": "單本作品",
+    "author": "範例作者"
+  }
+}

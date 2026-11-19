@@ -1,0 +1,48 @@
+# 依赖与本地环境
+/node_modules
+/oh_modules
+**/oh_modules
+/local.properties
+/.idea
+/.vscode
+
+# 构建中间产物与产物（HAP 由 CI/本地构建生成，不入库）
+**/build
+/.hvigor
+/.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+
+# 临时与敏感文件
+*.log
+*.log.bak
+*.tmp
+*.p12
+*.cer
+*.csr
+*.jks
+*.keystore
+*.har
+*.pcap
+*.cookie
+.env*
+.DS_Store
+Thumbs.db
+/dist/
+/logs/
+/scripts/sim/reports/
+.workbuddy/
+.agents/
+.mstar/
+/*.png
+!icon.png
+*REPORT*
+*AUDIT*
+*SUMMARY*
+*MEMORY*
+
+# Morning Star store (process artifact, local only)
+/store.db
+/store.db-*

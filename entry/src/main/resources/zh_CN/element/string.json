@@ -1,0 +1,2312 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "NoyAcg 漫画阅读器入口模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "NoyAcg 漫画阅读器"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NoyAcg"
+    },
+    {
+      "name": "tab_home",
+      "value": "主页"
+    },
+    {
+      "name": "tab_latest",
+      "value": "最新"
+    },
+    {
+      "name": "tab_community",
+      "value": "社区"
+    },
+    {
+      "name": "tab_shelf",
+      "value": "收藏"
+    },
+    {
+      "name": "tab_user",
+      "value": "用户"
+    },
+    {
+      "name": "profile_guest",
+      "value": "游客"
+    },
+    {
+      "name": "profile_login",
+      "value": "登录"
+    },
+    {
+      "name": "profile_logout",
+      "value": "退出登录"
+    },
+    {
+      "name": "profile_logout_doing",
+      "value": "退出中..."
+    },
+    {
+      "name": "profile_checking",
+      "value": "正在校验登录状态..."
+    },
+    {
+      "name": "profile_check_failed",
+      "value": "登录状态校验失败"
+    },
+    {
+      "name": "profile_retry",
+      "value": "重试"
+    },
+    {
+      "name": "profile_login_hint",
+      "value": "登录后可同步收藏、消息与阅读进度"
+    },
+    {
+      "name": "profile_about",
+      "value": "关于"
+    },
+    {
+      "name": "profile_about_license",
+      "value": "许可与详情"
+    },
+    {
+      "name": "profile_data_source",
+      "value": "数据源"
+    },
+    {
+      "name": "profile_app_version",
+      "value": "应用版本"
+    },
+    {
+      "name": "profile_env",
+      "value": "运行环境"
+    },
+    {
+      "name": "profile_env_value",
+      "value": "HarmonyOS %s · API 26"
+    },
+    {
+      "name": "profile_uid",
+      "value": "UID: %s"
+    },
+    {
+      "name": "profile_settings_accessibility",
+      "value": "设置：应用偏好、存储管理与高级选项"
+    },
+    {
+      "name": "menu_message",
+      "value": "消息中心"
+    },
+    {
+      "name": "menu_message_desc",
+      "value": "评论回复 / 社区回复 / 系统消息"
+    },
+    {
+      "name": "menu_shelf",
+      "value": "我的收藏"
+    },
+    {
+      "name": "menu_shelf_desc",
+      "value": "账号收藏与本地书架管理"
+    },
+    {
+      "name": "menu_history",
+      "value": "阅读历史"
+    },
+    {
+      "name": "menu_history_desc",
+      "value": "接着上次的进度继续阅读"
+    },
+    {
+      "name": "menu_download",
+      "value": "下载管理"
+    },
+    {
+      "name": "menu_download_desc",
+      "value": "离线章节、下载任务与文件清理"
+    },
+    {
+      "name": "menu_offline_books",
+      "value": "离线阅读"
+    },
+    {
+      "name": "menu_offline_books_desc",
+      "value": "查看并离线阅读已下载的漫画"
+    },
+    {
+      "name": "menu_settings",
+      "value": "设置"
+    },
+    {
+      "name": "settings_title",
+      "value": "设置"
+    },
+    {
+      "name": "group_prefs",
+      "value": "内容与偏好"
+    },
+    {
+      "name": "group_storage",
+      "value": "存储管理"
+    },
+    {
+      "name": "group_appearance",
+      "value": "显示与外观"
+    },
+    {
+      "name": "group_privacy",
+      "value": "账户与隐私"
+    },
+    {
+      "name": "group_advanced",
+      "value": "高级"
+    },
+    {
+      "name": "unavailable",
+      "value": "暂未支持"
+    },
+    {
+      "name": "settings_rating_title",
+      "value": "内容类型"
+    },
+    {
+      "name": "settings_rating_desc",
+      "value": "选择浏览全年龄或限制级作品"
+    },
+    {
+      "name": "rating_all_ages",
+      "value": "仅全年龄内容"
+    },
+    {
+      "name": "rating_adult",
+      "value": "仅限制级内容"
+    },
+    {
+      "name": "rating_all",
+      "value": "显示全部内容"
+    },
+    {
+      "name": "settings_rating_hint",
+      "value": "修改后立即生效，同步至所有请求；阅读方向请在阅读器内调整"
+    },
+    {
+      "name": "settings_language",
+      "value": "应用语言"
+    },
+    {
+      "name": "lang_system",
+      "value": "系统默认"
+    },
+    {
+      "name": "lang_zh_cn",
+      "value": "简体中文"
+    },
+    {
+      "name": "lang_zh_tw",
+      "value": "繁体中文"
+    },
+    {
+      "name": "settings_language_hint",
+      "value": "切换界面显示语言（重启应用后生效）"
+    },
+    {
+      "name": "toast_lang_saved",
+      "value": "已保存，重启应用后生效"
+    },
+    {
+      "name": "toast_lang_system",
+      "value": "已切换为跟随系统，重启后生效"
+    },
+    {
+      "name": "toast_lang_failed",
+      "value": "语言设置失败，已保留原设置"
+    },
+    {
+      "name": "settings_server",
+      "value": "切换服务器分流"
+    },
+    {
+      "name": "settings_server_reason",
+      "value": "当前仅有单一官方入口（noymanga.com），无经过验证的备用节点"
+    },
+    {
+      "name": "settings_block_tags",
+      "value": "屏蔽标签"
+    },
+    {
+      "name": "settings_block_tags_desc",
+      "value": "自动隐藏包含指定标签的作品"
+    },
+    {
+      "name": "storage_cache",
+      "value": "图片缓存"
+    },
+    {
+      "name": "storage_cache_desc",
+      "value": "在线看图产生的临时缓存，清理不影响离线漫画"
+    },
+    {
+      "name": "storage_cache_clear",
+      "value": "清理图片缓存"
+    },
+    {
+      "name": "storage_cache_clearing",
+      "value": "清理中..."
+    },
+    {
+      "name": "storage_offline",
+      "value": "离线数据"
+    },
+    {
+      "name": "storage_offline_desc",
+      "value": "查看与管理已下载的离线漫画章节"
+    },
+    {
+      "name": "storage_offline_manage",
+      "value": "前往下载管理 →"
+    },
+    {
+      "name": "storage_calc",
+      "value": "统计中..."
+    },
+    {
+      "name": "storage_failed",
+      "value": "统计失败"
+    },
+    {
+      "name": "settings_time_format",
+      "value": "时间格式化"
+    },
+    {
+      "name": "time_abs",
+      "value": "绝对时间"
+    },
+    {
+      "name": "time_rel",
+      "value": "相对时间"
+    },
+    {
+      "name": "toast_time_format_partial",
+      "value": "时间格式已切换，但可能未保存到本地"
+    },
+    {
+      "name": "settings_theme",
+      "value": "主题设置"
+    },
+    {
+      "name": "theme_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "theme_light",
+      "value": "浅色模式"
+    },
+    {
+      "name": "theme_dark",
+      "value": "深色模式"
+    },
+    {
+      "name": "settings_theme_hint",
+      "value": "切换浅色、深色或跟随系统外观"
+    },
+    {
+      "name": "toast_theme_saved",
+      "value": "主题已切换"
+    },
+    {
+      "name": "toast_theme_failed",
+      "value": "主题切换失败，已恢复原设置"
+    },
+    {
+      "name": "settings_privacy",
+      "value": "隐私设定"
+    },
+    {
+      "name": "settings_privacy_reason",
+      "value": "服务端未提供资料/评论可见性配置接口（API 未验证）"
+    },
+    {
+      "name": "adv_report",
+      "value": "应用异常记录"
+    },
+    {
+      "name": "adv_report_desc",
+      "value": "查看影响正常使用的程序异常记录"
+    },
+    {
+      "name": "adv_log",
+      "value": "网络日志"
+    },
+    {
+      "name": "adv_log_desc",
+      "value": "查看接口请求状态与耗时，辅助排查网络问题"
+    },
+    {
+      "name": "adv_cache",
+      "value": "高级缓存配置"
+    },
+    {
+      "name": "adv_cache_desc",
+      "value": "设置图片缓存上限与自动清理规则"
+    },
+    {
+      "name": "dialog_logout_title",
+      "value": "退出登录"
+    },
+    {
+      "name": "dialog_logout_body",
+      "value": "将吊销服务端会话并清除本机登录状态。本地收藏、下载、阅读历史与设置不受影响。"
+    },
+    {
+      "name": "dialog_logout_confirm",
+      "value": "退出"
+    },
+    {
+      "name": "dialog_clear_cache_title",
+      "value": "清理图片缓存"
+    },
+    {
+      "name": "dialog_clear_cache_body",
+      "value": "将删除约 %s 的图片缓存，书籍收藏、阅读进度与离线章节不受影响。"
+    },
+    {
+      "name": "dialog_clear_confirm",
+      "value": "清理"
+    },
+    {
+      "name": "common_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "common_back",
+      "value": "返回"
+    },
+    {
+      "name": "common_retry",
+      "value": "重试"
+    },
+    {
+      "name": "common_confirm",
+      "value": "确定"
+    },
+    {
+      "name": "toast_logout_done",
+      "value": "已退出登录"
+    },
+    {
+      "name": "toast_logout_failed",
+      "value": "登出失败，请重试"
+    },
+    {
+      "name": "toast_cache_freed",
+      "value": "已清理 %s"
+    },
+    {
+      "name": "toast_cache_partial",
+      "value": "已清理 %s，%d 个文件未能删除"
+    },
+    {
+      "name": "toast_cache_empty",
+      "value": "缓存已经是空的"
+    },
+    {
+      "name": "toast_cache_failed",
+      "value": "清理失败，请稍后重试"
+    },
+    {
+      "name": "time_just_now",
+      "value": "刚刚"
+    },
+    {
+      "name": "time_minutes_ago",
+      "value": "%d 分钟前"
+    },
+    {
+      "name": "time_hours_ago",
+      "value": "%d 小时前"
+    },
+    {
+      "name": "time_days_ago",
+      "value": "%d 天前"
+    },
+    {
+      "name": "about_desc",
+      "value": "NoyACG 第三方鸿蒙阅读客户端"
+    },
+    {
+      "name": "about_uid",
+      "value": "当前 UID"
+    },
+    {
+      "name": "about_license",
+      "value": "开源许可"
+    },
+    {
+      "name": "about_license_body",
+      "value": "本项目使用的第三方组件（HarmonyOS SDK、hypium 等）遵循其各自的开源许可；项目自身的许可信息以代码仓库附带的许可文件为准。"
+    },
+    {
+      "name": "discovery_rank",
+      "value": "排行榜"
+    },
+    {
+      "name": "discovery_category",
+      "value": "分类"
+    },
+    {
+      "name": "discovery_search",
+      "value": "搜索"
+    },
+    {
+      "name": "discovery_personalized",
+      "value": "精选"
+    },
+    {
+      "name": "pagination_total",
+      "value": "总量：%d"
+    },
+    {
+      "name": "pagination_pages",
+      "value": "页数：%d"
+    },
+    {
+      "name": "pagination_loaded",
+      "value": "已获取：%d 条"
+    },
+    {
+      "name": "pagination_local_pages",
+      "value": "本地页数：%d"
+    },
+    {
+      "name": "pagination_unknown",
+      "value": "总量未知"
+    },
+    {
+      "name": "pagination_jump",
+      "value": "转到"
+    },
+    {
+      "name": "pagination_prev",
+      "value": "上一页"
+    },
+    {
+      "name": "pagination_next",
+      "value": "下一页"
+    },
+    {
+      "name": "pagination_jump_title",
+      "value": "跳转到指定页"
+    },
+    {
+      "name": "pagination_jump_placeholder",
+      "value": "输入页码"
+    },
+    {
+      "name": "pagination_jump_confirm",
+      "value": "跳转"
+    },
+    {
+      "name": "pagination_jump_invalid",
+      "value": "请输入正整数页码"
+    },
+    {
+      "name": "pagination_jump_range",
+      "value": "页码需在 1 - %d 之间"
+    },
+    {
+      "name": "rank_title",
+      "value": "排行榜"
+    },
+    {
+      "name": "rank_reading",
+      "value": "阅读榜"
+    },
+    {
+      "name": "rank_favorite",
+      "value": "收藏榜"
+    },
+    {
+      "name": "rank_high_quality",
+      "value": "高质量榜"
+    },
+    {
+      "name": "rank_day",
+      "value": "日榜"
+    },
+    {
+      "name": "rank_week",
+      "value": "周榜"
+    },
+    {
+      "name": "rank_month",
+      "value": "月榜"
+    },
+    {
+      "name": "rank_source_note",
+      "value": "数据来自官方榜单接口，按服务端返回顺序展示"
+    },
+    {
+      "name": "rank_empty",
+      "value": "暂无榜单数据"
+    },
+    {
+      "name": "rank_empty_desc",
+      "value": "暂无榜单内容"
+    },
+    {
+      "name": "category_title",
+      "value": "分类"
+    },
+    {
+      "name": "category_empty",
+      "value": "暂无分类"
+    },
+    {
+      "name": "category_empty_desc",
+      "value": "分类目录未能加载"
+    },
+    {
+      "name": "category_empty_hint",
+      "value": "服务端暂未返回分类"
+    },
+    {
+      "name": "category_placeholder",
+      "value": "占位图"
+    },
+    {
+      "name": "category_fantasy",
+      "value": "奇幻"
+    },
+    {
+      "name": "category_romance",
+      "value": "恋爱"
+    },
+    {
+      "name": "category_daily",
+      "value": "日常"
+    },
+    {
+      "name": "category_comedy",
+      "value": "搞笑"
+    },
+    {
+      "name": "category_hotblood",
+      "value": "热血"
+    },
+    {
+      "name": "category_action",
+      "value": "动作"
+    },
+    {
+      "name": "category_mystery",
+      "value": "悬疑"
+    },
+    {
+      "name": "category_healing",
+      "value": "治愈"
+    },
+    {
+      "name": "category_school",
+      "value": "校园"
+    },
+    {
+      "name": "category_music",
+      "value": "音乐"
+    },
+    {
+      "name": "category_four_panel",
+      "value": "四格"
+    },
+    {
+      "name": "category_yuri",
+      "value": "百合"
+    },
+    {
+      "name": "category_tag_fantasy",
+      "value": "奇幻"
+    },
+    {
+      "name": "category_tag_romance",
+      "value": "戀愛"
+    },
+    {
+      "name": "category_tag_daily",
+      "value": "日常"
+    },
+    {
+      "name": "category_tag_comedy",
+      "value": "搞笑"
+    },
+    {
+      "name": "category_tag_hotblood",
+      "value": "熱血"
+    },
+    {
+      "name": "category_tag_action",
+      "value": "動作"
+    },
+    {
+      "name": "category_tag_mystery",
+      "value": "懸疑"
+    },
+    {
+      "name": "category_tag_healing",
+      "value": "治癒"
+    },
+    {
+      "name": "category_tag_school",
+      "value": "校園"
+    },
+    {
+      "name": "category_tag_music",
+      "value": "音樂"
+    },
+    {
+      "name": "category_tag_four_panel",
+      "value": "四格"
+    },
+    {
+      "name": "category_tag_yuri",
+      "value": "百合"
+    },
+    {
+      "name": "personalized_title",
+      "value": "个性推荐"
+    },
+    {
+      "name": "recommend_empty_title",
+      "value": "暂无推荐"
+    },
+    {
+      "name": "recommend_empty_desc",
+      "value": "多收藏一些作品后再来看看吧"
+    },
+    {
+      "name": "home_section_read_rank",
+      "value": "今日阅读榜"
+    },
+    {
+      "name": "home_section_fav_rank",
+      "value": "今日收藏榜"
+    },
+    {
+      "name": "home_section_recommend",
+      "value": "收藏推荐"
+    },
+    {
+      "name": "home_section_quality",
+      "value": "高质榜"
+    },
+    {
+      "name": "blocked_scope_local",
+      "value": "作用范围：本机（未登录）"
+    },
+    {
+      "name": "blocked_scope_account",
+      "value": "作用范围：本机 · 当前账号"
+    },
+    {
+      "name": "blocked_scope_note",
+      "value": "屏蔽规则只保存在本机，不会同步到其他设备；切换账号后自动切换到该账号的配置。"
+    },
+    {
+      "name": "blocked_empty",
+      "value": "暂无屏蔽标签"
+    },
+    {
+      "name": "blocked_empty_desc",
+      "value": "加入标签后，含该标签的内容会从首页、榜单、搜索与推荐中隐藏。"
+    },
+    {
+      "name": "blocked_add_placeholder",
+      "value": "输入完整标签名称"
+    },
+    {
+      "name": "blocked_add",
+      "value": "添加标签"
+    },
+    {
+      "name": "blocked_remove",
+      "value": "移除"
+    },
+    {
+      "name": "blocked_clear",
+      "value": "清空屏蔽标签"
+    },
+    {
+      "name": "blocked_clear_confirm",
+      "value": "将移除全部屏蔽标签，被过滤的内容会重新出现在列表里。"
+    },
+    {
+      "name": "blocked_invalid",
+      "value": "请输入完整标签名称（不超过 40 个字符）"
+    },
+    {
+      "name": "blocked_limit",
+      "value": "最多只能屏蔽 %d 个标签"
+    },
+    {
+      "name": "blocked_save_failed",
+      "value": "已生效，但未能保存到本地"
+    },
+    {
+      "name": "cache_usage_title",
+      "value": "当前占用"
+    },
+    {
+      "name": "cache_limit_title",
+      "value": "容量上限"
+    },
+    {
+      "name": "cache_limit_desc",
+      "value": "图片缓存超过上限时，将自动清理最早浏览的临时图片"
+    },
+    {
+      "name": "cache_limit_mb500",
+      "value": "500 MB"
+    },
+    {
+      "name": "cache_limit_gb1",
+      "value": "1 GB"
+    },
+    {
+      "name": "cache_limit_unlimited",
+      "value": "无限制"
+    },
+    {
+      "name": "cache_lru_note",
+      "value": "自动清理仅针对在线浏览产生的图片缓存，不会删除已下载的离线漫画"
+    },
+    {
+      "name": "cache_offline_isolated",
+      "value": "当缓存达到设定上限时，系统会优先释放较早的缓存空间"
+    },
+    {
+      "name": "cache_clean_now",
+      "value": "重新计算"
+    },
+    {
+      "name": "cache_clean_never",
+      "value": "当前缓存未达上限，暂无需自动清理"
+    },
+    {
+      "name": "cache_clean_result",
+      "value": "已清理 %d 个文件，释放 %s"
+    },
+    {
+      "name": "cache_over_limit",
+      "value": "当前占用已超出上限，将在下次检查时自动清理"
+    },
+    {
+      "name": "cache_limit_save_failed",
+      "value": "容量上限未能保存到本地"
+    },
+    {
+      "name": "dialog_clear_cache_body_short",
+      "value": "只删除图片缓存，离线章节、收藏与阅读进度不受影响。"
+    },
+    {
+      "name": "diag_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "diag_filter_error",
+      "value": "错误"
+    },
+    {
+      "name": "diag_filter_warn",
+      "value": "警告"
+    },
+    {
+      "name": "diag_capability_note",
+      "value": "仅记录影响正常使用的程序异常，方便排查问题"
+    },
+    {
+      "name": "diag_export",
+      "value": "导出日志"
+    },
+    {
+      "name": "diag_export_ok",
+      "value": "已导出到 %s"
+    },
+    {
+      "name": "diag_export_failed",
+      "value": "导出失败，请稍后重试"
+    },
+    {
+      "name": "diag_clear",
+      "value": "清空日志"
+    },
+    {
+      "name": "diag_clear_confirm",
+      "value": "清空后无法恢复，确定继续？"
+    },
+    {
+      "name": "diag_empty",
+      "value": "运行正常，暂无异常记录"
+    },
+    {
+      "name": "diag_empty_desc",
+      "value": "运行正常，暂无异常记录"
+    },
+    {
+      "name": "net_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "net_filter_error",
+      "value": "失败"
+    },
+    {
+      "name": "net_filter_ok",
+      "value": "成功"
+    },
+    {
+      "name": "net_search_hint",
+      "value": "按接口路径搜索"
+    },
+    {
+      "name": "net_privacy_note",
+      "value": "仅记录接口访问状态与耗时，用于排查加载失败问题，不包含账号密码及隐私信息"
+    },
+    {
+      "name": "net_export",
+      "value": "导出日志"
+    },
+    {
+      "name": "net_export_ok",
+      "value": "已导出到 %s"
+    },
+    {
+      "name": "net_export_failed",
+      "value": "导出失败，请稍后重试"
+    },
+    {
+      "name": "net_clear",
+      "value": "清空日志"
+    },
+    {
+      "name": "net_clear_confirm",
+      "value": "清空后无法恢复，确定继续？"
+    },
+    {
+      "name": "net_empty",
+      "value": "暂无请求记录"
+    },
+    {
+      "name": "net_empty_desc",
+      "value": "打开首页或刷新列表后会自动出现。"
+    },
+    {
+      "name": "badge_status_completed",
+      "value": "已完结"
+    },
+    {
+      "name": "badge_status_ongoing",
+      "value": "连载中"
+    },
+    {
+      "name": "badge_kw_kinky",
+      "value": "重口"
+    },
+    {
+      "name": "badge_kw_ntr",
+      "value": "NTR"
+    },
+    {
+      "name": "badge_kw_uncle",
+      "value": "大叔"
+    },
+    {
+      "name": "state_empty_default",
+      "value": "暂无内容"
+    },
+    {
+      "name": "state_error_default",
+      "value": "加载失败"
+    },
+    {
+      "name": "settings_manage_tags",
+      "value": "管理标签"
+    },
+    {
+      "name": "settings_time_format_desc",
+      "value": "选择列表与评论的时间显示方式"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "主题模式"
+    },
+    {
+      "name": "settings_theme_accent",
+      "value": "主题颜色"
+    },
+    {
+      "name": "settings_theme_accent_desc",
+      "value": "选择全应用界面强调色"
+    },
+    {
+      "name": "group_navbar",
+      "value": "导航栏"
+    },
+    {
+      "name": "settings_navbar_entries",
+      "value": "导航栏入口"
+    },
+    {
+      "name": "settings_navbar_entries_desc",
+      "value": "主页与用户固定保留，其余入口可按需显示"
+    },
+    {
+      "name": "nav_latest",
+      "value": "最新"
+    },
+    {
+      "name": "nav_community",
+      "value": "社区"
+    },
+    {
+      "name": "nav_shelf",
+      "value": "收藏"
+    },
+    {
+      "name": "settings_navbar_shelf_hint",
+      "value": "隐藏「收藏」后仍可在「用户 - 我的收藏」中访问"
+    },
+    {
+      "name": "shelf_title",
+      "value": "收藏"
+    },
+    {
+      "name": "shelf_count_account",
+      "value": "账号 %d 部"
+    },
+    {
+      "name": "shelf_count_local",
+      "value": "本地 %d 部"
+    },
+    {
+      "name": "shelf_seg_account",
+      "value": "账号收藏"
+    },
+    {
+      "name": "shelf_seg_local",
+      "value": "本地收藏"
+    },
+    {
+      "name": "shelf_account_empty_title",
+      "value": "账号暂无收藏"
+    },
+    {
+      "name": "shelf_account_empty_msg",
+      "value": "在 NoyAcg 网站收藏的漫画会显示在这里"
+    },
+    {
+      "name": "shelf_account_login_prompt",
+      "value": "登录后可查看账号收藏"
+    },
+    {
+      "name": "shelf_local_empty_title",
+      "value": "本地暂无收藏"
+    },
+    {
+      "name": "shelf_local_empty_msg",
+      "value": "在详情页点亮星标，即可加入本地收藏"
+    },
+    {
+      "name": "common_go_login",
+      "value": "去登录"
+    },
+    {
+      "name": "common_search",
+      "value": "搜索"
+    },
+    {
+      "name": "common_clear",
+      "value": "清空"
+    },
+    {
+      "name": "common_delete",
+      "value": "删除"
+    },
+    {
+      "name": "common_reset",
+      "value": "重置"
+    },
+    {
+      "name": "common_refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "common_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "common_reply",
+      "value": "回复"
+    },
+    {
+      "name": "common_send",
+      "value": "发送"
+    },
+    {
+      "name": "common_sending",
+      "value": "发送中"
+    },
+    {
+      "name": "common_loading_more",
+      "value": "正在加载更多..."
+    },
+    {
+      "name": "common_no_more",
+      "value": "已经到底了"
+    },
+    {
+      "name": "latest_title",
+      "value": "最新"
+    },
+    {
+      "name": "latest_sort_new",
+      "value": "最新"
+    },
+    {
+      "name": "latest_sort_views",
+      "value": "最多浏览"
+    },
+    {
+      "name": "latest_sort_favorites",
+      "value": "最多收藏"
+    },
+    {
+      "name": "latest_sort_rating",
+      "value": "最高评分"
+    },
+    {
+      "name": "latest_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "latest_filter_ongoing",
+      "value": "连载中"
+    },
+    {
+      "name": "latest_filter_completed",
+      "value": "已完结"
+    },
+    {
+      "name": "community_title",
+      "value": "社区"
+    },
+    {
+      "name": "community_loading",
+      "value": "正在加载社区帖子..."
+    },
+    {
+      "name": "community_load_failed",
+      "value": "加载社区帖子失败"
+    },
+    {
+      "name": "community_load_more_failed",
+      "value": "加载更多失败，点击重试"
+    },
+    {
+      "name": "community_empty_search",
+      "value": "没有找到相关帖子"
+    },
+    {
+      "name": "community_empty",
+      "value": "暂无社区帖子"
+    },
+    {
+      "name": "community_new_post",
+      "value": "发帖"
+    },
+    {
+      "name": "community_search_hint",
+      "value": "搜索社区帖子关键词..."
+    },
+    {
+      "name": "community_pinned",
+      "value": "置顶"
+    },
+    {
+      "name": "community_spoiler_hint",
+      "value": "剧透/敏感图 · 点击查看"
+    },
+    {
+      "name": "community_create_title",
+      "value": "发布新帖"
+    },
+    {
+      "name": "community_create_title_ph",
+      "value": "输入帖子标题（必填）"
+    },
+    {
+      "name": "community_create_content_ph",
+      "value": "分享你的想法、推漫或讨论..."
+    },
+    {
+      "name": "community_uploading",
+      "value": "上传中"
+    },
+    {
+      "name": "community_upload_failed",
+      "value": "失败"
+    },
+    {
+      "name": "community_tap_retry",
+      "value": "点击重试"
+    },
+    {
+      "name": "community_emoji",
+      "value": "表情"
+    },
+    {
+      "name": "community_image",
+      "value": "图片"
+    },
+    {
+      "name": "community_publish",
+      "value": "发布"
+    },
+    {
+      "name": "community_publishing",
+      "value": "发布中..."
+    },
+    {
+      "name": "community_err_ctx",
+      "value": "无法获取应用上下文"
+    },
+    {
+      "name": "community_err_pick_img",
+      "value": "选择图片失败"
+    },
+    {
+      "name": "community_err_upload",
+      "value": "上传失败"
+    },
+    {
+      "name": "community_err_wait_upload",
+      "value": "请等待图片上传完成或移除失败图片"
+    },
+    {
+      "name": "community_err_publish",
+      "value": "发布失败，请稍后重试"
+    },
+    {
+      "name": "community_edit_title",
+      "value": "编辑帖子"
+    },
+    {
+      "name": "community_edit_note",
+      "value": "注：服务端仅支持修改标题与正文，不支持修改已发布图片"
+    },
+    {
+      "name": "community_edit_title_ph",
+      "value": "输入帖子标题"
+    },
+    {
+      "name": "community_edit_content_ph",
+      "value": "输入帖子正文"
+    },
+    {
+      "name": "community_save_changes",
+      "value": "保存修改"
+    },
+    {
+      "name": "community_saving",
+      "value": "保存中..."
+    },
+    {
+      "name": "community_err_save",
+      "value": "保存失败，请稍后重试"
+    },
+    {
+      "name": "community_detail_title",
+      "value": "帖子详情"
+    },
+    {
+      "name": "community_detail_loading",
+      "value": "正在加载帖子详情..."
+    },
+    {
+      "name": "community_detail_invalid_id",
+      "value": "无效的帖子 ID"
+    },
+    {
+      "name": "community_detail_load_failed",
+      "value": "加载帖子详情失败"
+    },
+    {
+      "name": "community_detail_no_comments",
+      "value": "暂无评论，快来抢沙发"
+    },
+    {
+      "name": "community_detail_loading_comments",
+      "value": "正在加载更多评论..."
+    },
+    {
+      "name": "community_detail_all_comments",
+      "value": "已展示全部评论"
+    },
+    {
+      "name": "community_detail_view_replies_count",
+      "value": "查看全部 %d 条回复 >"
+    },
+    {
+      "name": "community_detail_view_replies",
+      "value": "查看全部回复 >"
+    },
+    {
+      "name": "community_detail_reply_to",
+      "value": "回复 @%s..."
+    },
+    {
+      "name": "community_detail_comment_ph",
+      "value": "写下你的评论..."
+    },
+    {
+      "name": "community_detail_sub_title",
+      "value": "楼中楼回复"
+    },
+    {
+      "name": "community_detail_reply_comment",
+      "value": "回复该评论"
+    },
+    {
+      "name": "community_detail_loading_replies",
+      "value": "正在加载回复..."
+    },
+    {
+      "name": "community_detail_all_replies",
+      "value": "已展示全部回复"
+    },
+    {
+      "name": "community_detail_sub_failed",
+      "value": "加载楼中楼失败"
+    },
+    {
+      "name": "community_detail_reply_failed",
+      "value": "发送回复失败"
+    },
+    {
+      "name": "download_title",
+      "value": "下载管理"
+    },
+    {
+      "name": "download_offline_usage",
+      "value": "离线下载占用"
+    },
+    {
+      "name": "download_resume_all",
+      "value": "全部继续"
+    },
+    {
+      "name": "download_pause_all",
+      "value": "全部暂停"
+    },
+    {
+      "name": "download_cancel_all",
+      "value": "取消全部"
+    },
+    {
+      "name": "download_clear_offline",
+      "value": "清空离线"
+    },
+    {
+      "name": "download_empty_title",
+      "value": "暂无下载任务"
+    },
+    {
+      "name": "download_empty_desc",
+      "value": "在漫画详情页选择章节加入下载队列后，可在此查看进度并离线阅读。"
+    },
+    {
+      "name": "download_offline_badge",
+      "value": "离线"
+    },
+    {
+      "name": "download_detail",
+      "value": "详情"
+    },
+    {
+      "name": "download_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "download_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "download_resume",
+      "value": "继续"
+    },
+    {
+      "name": "download_repair",
+      "value": "修复"
+    },
+    {
+      "name": "download_read_offline",
+      "value": "离线阅读"
+    },
+    {
+      "name": "download_clear_all_title",
+      "value": "清空全部离线文件"
+    },
+    {
+      "name": "download_clear_all_confirm",
+      "value": "确认清空"
+    },
+    {
+      "name": "download_delete_task_title",
+      "value": "删除下载任务"
+    },
+    {
+      "name": "download_delete_task_msg",
+      "value": "「删除文件」会同时清除该章节的永久下载图片，此操作不可恢复。"
+    },
+    {
+      "name": "download_delete_record_only",
+      "value": "仅删记录"
+    },
+    {
+      "name": "download_delete_files",
+      "value": "删除文件"
+    },
+    {
+      "name": "download_status_queued",
+      "value": "等待中"
+    },
+    {
+      "name": "download_status_preparing",
+      "value": "准备中"
+    },
+    {
+      "name": "download_status_downloading",
+      "value": "下载中"
+    },
+    {
+      "name": "download_status_paused",
+      "value": "已暂停"
+    },
+    {
+      "name": "download_status_completed",
+      "value": "已完成"
+    },
+    {
+      "name": "download_status_failed",
+      "value": "失败"
+    },
+    {
+      "name": "download_status_canceled",
+      "value": "已取消"
+    },
+    {
+      "name": "download_status_incomplete",
+      "value": "不完整"
+    },
+    {
+      "name": "offline_title",
+      "value": "离线阅读"
+    },
+    {
+      "name": "offline_delete_title",
+      "value": "删除本地资源"
+    },
+    {
+      "name": "offline_delete_all_title",
+      "value": "删除全部离线资源"
+    },
+    {
+      "name": "message_title",
+      "value": "消息"
+    },
+    {
+      "name": "message_kind_comment",
+      "value": "评论回复"
+    },
+    {
+      "name": "message_kind_community",
+      "value": "社区回复"
+    },
+    {
+      "name": "message_kind_system",
+      "value": "系统消息"
+    },
+    {
+      "name": "message_login_required",
+      "value": "登录后才能查看消息"
+    },
+    {
+      "name": "message_login_prompt_title",
+      "value": "请先登录"
+    },
+    {
+      "name": "message_login_prompt_desc",
+      "value": "登录后可查看评论与社区回复"
+    },
+    {
+      "name": "message_empty",
+      "value": "暂无消息"
+    },
+    {
+      "name": "message_load_more",
+      "value": "加载更多"
+    },
+    {
+      "name": "message_loading",
+      "value": "加载中..."
+    },
+    {
+      "name": "message_no_content",
+      "value": "（无内容）"
+    },
+    {
+      "name": "profile_title",
+      "value": "用户中心"
+    },
+    {
+      "name": "profile_checkin_done",
+      "value": "今日已签"
+    },
+    {
+      "name": "profile_checkin_do",
+      "value": "每日签到"
+    },
+    {
+      "name": "search_title",
+      "value": "搜索"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "搜索漫画标题 / 作者 / 标签"
+    },
+    {
+      "name": "search_history",
+      "value": "搜索历史"
+    },
+    {
+      "name": "search_history_empty",
+      "value": "暂无搜索记录，试试下方热门标签或输入关键词"
+    },
+    {
+      "name": "search_hot",
+      "value": "热门搜索"
+    },
+    {
+      "name": "search_reset_filter",
+      "value": "重置筛选"
+    },
+    {
+      "name": "search_clear_title",
+      "value": "清空搜索历史"
+    },
+    {
+      "name": "search_clear_msg",
+      "value": "确定清空全部历史搜索记录吗？"
+    },
+    {
+      "name": "search_failed",
+      "value": "搜索失败"
+    },
+    {
+      "name": "search_empty",
+      "value": "没有找到相关漫画"
+    },
+    {
+      "name": "search_need_login",
+      "value": "需要登录 NoyAcg"
+    },
+    {
+      "name": "search_sort_default",
+      "value": "默认排序"
+    },
+    {
+      "name": "search_type_all",
+      "value": "全部类型"
+    },
+    {
+      "name": "search_type_comic",
+      "value": "漫画"
+    },
+    {
+      "name": "search_type_anime",
+      "value": "动画"
+    },
+    {
+      "name": "search_progress_all",
+      "value": "全部进度"
+    },
+    {
+      "name": "search_load_more",
+      "value": "加载更多..."
+    },
+    {
+      "name": "search_load_more_failed",
+      "value": "加载更多失败"
+    },
+    {
+      "name": "search_end",
+      "value": "— 已经到底了 —"
+    },
+    {
+      "name": "login_title",
+      "value": "登录"
+    },
+    {
+      "name": "login_subtitle",
+      "value": "登录账号以同步收藏、历史与社区互动"
+    },
+    {
+      "name": "login_username_ph",
+      "value": "账号 / 用户名"
+    },
+    {
+      "name": "login_password_ph",
+      "value": "密码"
+    },
+    {
+      "name": "login_submitting",
+      "value": "登录中..."
+    },
+    {
+      "name": "login_submit",
+      "value": "登录"
+    },
+    {
+      "name": "login_success",
+      "value": "登录成功"
+    },
+    {
+      "name": "login_no_account",
+      "value": "还没有账号？"
+    },
+    {
+      "name": "login_register_now",
+      "value": "立即注册"
+    },
+    {
+      "name": "login_register_open_failed",
+      "value": "未找到可用浏览器，请手动访问 NoyAcg 官网注册"
+    },
+    {
+      "name": "login_err_empty_username",
+      "value": "请输入账号"
+    },
+    {
+      "name": "login_err_empty_password",
+      "value": "请输入密码"
+    },
+    {
+      "name": "login_err_failed",
+      "value": "登录失败，请稍后重试"
+    },
+    {
+      "name": "login_err_exception",
+      "value": "登录异常，请稍后重试"
+    },
+    {
+      "name": "theme_accent_mist_iris",
+      "value": "暮云紫"
+    },
+    {
+      "name": "theme_accent_celadon_sage",
+      "value": "青瓷绿"
+    },
+    {
+      "name": "theme_accent_slate_blue",
+      "value": "雾霭蓝"
+    },
+    {
+      "name": "theme_accent_muted_rose",
+      "value": "枯玫瑰"
+    },
+    {
+      "name": "theme_accent_amber_tea",
+      "value": "琥珀茶"
+    },
+    {
+      "name": "theme_accent_graphite",
+      "value": "石墨灰"
+    },
+    {
+      "name": "home_more",
+      "value": "更多"
+    },
+    {
+      "name": "home_recommended",
+      "value": "最新推荐"
+    },
+    {
+      "name": "pagination_page_jump",
+      "value": "%1$d/%2$d 页 · 跳转"
+    },
+    {
+      "name": "detail_title",
+      "value": "漫画详情"
+    },
+    {
+      "name": "detail_load_failed",
+      "value": "详情加载失败"
+    },
+    {
+      "name": "detail_check_network",
+      "value": "请检查网络后重试"
+    },
+    {
+      "name": "detail_no_chapters",
+      "value": "暂无章节"
+    },
+    {
+      "name": "detail_no_chapters_msg",
+      "value": "服务端未返回章节目录，且未标明为单本作品。请稍后重试。"
+    },
+    {
+      "name": "detail_need_login",
+      "value": "需要登录 NoyAcg"
+    },
+    {
+      "name": "detail_need_login_msg",
+      "value": "会话已失效或未登录，登录后可查看详情与章节"
+    },
+    {
+      "name": "detail_all_offline",
+      "value": "已全部离线下载"
+    },
+    {
+      "name": "detail_added_offline",
+      "value": "已加入离线下载"
+    },
+    {
+      "name": "detail_copied_share",
+      "value": "已复制分享内容"
+    },
+    {
+      "name": "detail_copied_link",
+      "value": "已复制链接"
+    },
+    {
+      "name": "detail_copied_nid",
+      "value": "已复制 NID"
+    },
+    {
+      "name": "detail_action_download",
+      "value": "下载"
+    },
+    {
+      "name": "detail_action_share",
+      "value": "分享"
+    },
+    {
+      "name": "detail_share_copy_link",
+      "value": "复制 Link"
+    },
+    {
+      "name": "detail_share_copy_nid",
+      "value": "复制 NID"
+    },
+    {
+      "name": "detail_share_more_apps",
+      "value": "其他应用"
+    },
+    {
+      "name": "detail_rating_fmt",
+      "value": "评分: %1$s / 5"
+    },
+    {
+      "name": "detail_rating_count_fmt",
+      "value": "(%d 人评分)"
+    },
+    {
+      "name": "detail_rating_tap",
+      "value": "点击星星评分"
+    },
+    {
+      "name": "detail_rating_5",
+      "value": "非常好"
+    },
+    {
+      "name": "detail_year_fmt",
+      "value": "出版年份: %s"
+    },
+    {
+      "name": "detail_updated_fmt",
+      "value": "最近更新: %s"
+    },
+    {
+      "name": "detail_favorites_fmt",
+      "value": "收藏数: %d"
+    },
+    {
+      "name": "detail_alias_fmt",
+      "value": "别名: %s"
+    },
+    {
+      "name": "detail_tag_tags",
+      "value": "标签"
+    },
+    {
+      "name": "detail_tag_characters",
+      "value": "角色"
+    },
+    {
+      "name": "detail_tag_originals",
+      "value": "原作"
+    },
+    {
+      "name": "detail_expand",
+      "value": "展开详情"
+    },
+    {
+      "name": "detail_collapse",
+      "value": "收起详情"
+    },
+    {
+      "name": "detail_last_read_fmt",
+      "value": "上次阅读到：%s"
+    },
+    {
+      "name": "detail_chapter_num_fmt",
+      "value": "第 %d 话"
+    },
+    {
+      "name": "detail_start_reading",
+      "value": "开始阅读"
+    },
+    {
+      "name": "detail_read_from_start",
+      "value": "从头阅读"
+    },
+    {
+      "name": "detail_continue_page_fmt",
+      "value": "继续阅读 · 第 %d 页"
+    },
+    {
+      "name": "detail_recommended",
+      "value": "相关推荐"
+    },
+    {
+      "name": "detail_chapters_header_fmt",
+      "value": "章节目录 (%1$d 话 / %2$d 分组)"
+    },
+    {
+      "name": "detail_download_all",
+      "value": "下载全部"
+    },
+    {
+      "name": "detail_order_asc",
+      "value": "正序"
+    },
+    {
+      "name": "detail_order_desc",
+      "value": "倒序"
+    },
+    {
+      "name": "detail_group_count_fmt",
+      "value": "%d 话"
+    },
+    {
+      "name": "detail_ch_reading",
+      "value": "在读"
+    },
+    {
+      "name": "detail_ch_read",
+      "value": "已读"
+    },
+    {
+      "name": "detail_ch_offline",
+      "value": "已离线"
+    },
+    {
+      "name": "detail_comments_header_fmt",
+      "value": "评论 (%d)"
+    },
+    {
+      "name": "detail_comments_loading",
+      "value": "正在加载评论..."
+    },
+    {
+      "name": "detail_comments_empty",
+      "value": "暂无评论"
+    },
+    {
+      "name": "detail_comments_retry_more",
+      "value": "重试加载更多"
+    },
+    {
+      "name": "detail_comments_load_more",
+      "value": "加载更多评论"
+    },
+    {
+      "name": "detail_comments_end",
+      "value": "已到底部"
+    },
+    {
+      "name": "detail_official_notice",
+      "value": "官方公告"
+    },
+    {
+      "name": "detail_user_num_fmt",
+      "value": "用户 #%d"
+    },
+    {
+      "name": "reader_local_unavailable",
+      "value": "本地章节不可用"
+    },
+    {
+      "name": "reader_load_failed",
+      "value": "章节加载失败"
+    },
+    {
+      "name": "reader_download_manage",
+      "value": "下载管理"
+    },
+    {
+      "name": "reader_loading_chapter",
+      "value": "正在加载章节..."
+    },
+    {
+      "name": "reader_no_pages",
+      "value": "暂无页面"
+    },
+    {
+      "name": "reader_no_pages_msg",
+      "value": "该章节未返回可阅读的图片页面"
+    },
+    {
+      "name": "reader_reading",
+      "value": "阅读中"
+    },
+    {
+      "name": "reader_offline_chapter",
+      "value": "离线章节"
+    },
+    {
+      "name": "reader_prev_chapter",
+      "value": "上一话"
+    },
+    {
+      "name": "reader_next_chapter",
+      "value": "下一话"
+    },
+    {
+      "name": "reader_toc",
+      "value": "目录"
+    },
+    {
+      "name": "reader_settings",
+      "value": "设置"
+    },
+    {
+      "name": "reader_settings_title",
+      "value": "阅读设置"
+    },
+    {
+      "name": "reader_mode_label",
+      "value": "阅读模式"
+    },
+    {
+      "name": "reader_mode_webtoon",
+      "value": "垂直滚动"
+    },
+    {
+      "name": "reader_mode_ltr",
+      "value": "由左至右"
+    },
+    {
+      "name": "reader_mode_rtl",
+      "value": "由右至左"
+    },
+    {
+      "name": "reader_orientation_label",
+      "value": "屏幕方向"
+    },
+    {
+      "name": "reader_orientation_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "reader_orientation_portrait",
+      "value": "锁定竖屏"
+    },
+    {
+      "name": "reader_orientation_landscape",
+      "value": "锁定横屏"
+    },
+    {
+      "name": "reader_system_brightness",
+      "value": "跟随系统亮度"
+    },
+    {
+      "name": "reader_brightness",
+      "value": "亮度"
+    },
+    {
+      "name": "reader_volume_paging",
+      "value": "音量键翻页"
+    },
+    {
+      "name": "reader_drawer_empty",
+      "value": "暂无可切换章节"
+    },
+    {
+      "name": "reader_drawer_current",
+      "value": "当前"
+    },
+    {
+      "name": "history_title",
+      "value": "历史记录"
+    },
+    {
+      "name": "history_empty",
+      "value": "暂无历史记录"
+    },
+    {
+      "name": "history_clear_title",
+      "value": "清空历史记录"
+    },
+    {
+      "name": "history_clear_msg",
+      "value": "确定清空全部阅读记录吗？"
+    },
+    {
+      "name": "history_cleared",
+      "value": "已清空历史记录"
+    },
+    {
+      "name": "history_clear_failed",
+      "value": "清空失败，请稍后重试"
+    },
+    {
+      "name": "cache_auto_cleaned_some",
+      "value": "已自动清理部分旧缓存"
+    },
+    {
+      "name": "rating_confirm_title",
+      "value": "开启限制级内容"
+    },
+    {
+      "name": "rating_confirm_msg",
+      "value": "请确认您已满 18 周岁，并自愿查看包含成人/限制级在内的全部内容。"
+    },
+    {
+      "name": "rating_confirm_btn",
+      "value": "确认已满 18 岁并开启"
+    },
+    {
+      "name": "rating_switch_failed",
+      "value": "内容类型切换失败"
+    },
+    {
+      "name": "rating_toast_all_ages",
+      "value": "已切换至仅全年龄内容，返回首页自动刷新"
+    },
+    {
+      "name": "rating_toast_adult",
+      "value": "已切换至仅限制级内容，返回首页自动刷新"
+    },
+    {
+      "name": "rating_toast_both",
+      "value": "已切换至显示全部内容，返回首页自动刷新"
+    },
+    {
+      "name": "settings_log_count_fmt",
+      "value": "%d 条"
+    },
+    {
+      "name": "settings_configure",
+      "value": "前往配置"
+    },
+    {
+      "name": "settings_cache_clearing_short",
+      "value": "清理中..."
+    },
+    {
+      "name": "settings_cache_calc_short",
+      "value": "计算中..."
+    },
+    {
+      "name": "history_page_progress_fmt",
+      "value": "%1$d/%2$d页"
+    },
+    {
+      "name": "history_page_single_fmt",
+      "value": "第%d页"
+    },
+    {
+      "name": "offline_empty_title",
+      "value": "暂无已下载漫画"
+    },
+    {
+      "name": "offline_empty_msg",
+      "value": "下载完成的漫画会集中展示在这里，无网络也能随时阅读"
+    },
+    {
+      "name": "offline_go_downloads",
+      "value": "前往下载管理"
+    },
+    {
+      "name": "offline_local_source",
+      "value": "本地离线资源"
+    },
+    {
+      "name": "offline_total_chapters_fmt",
+      "value": "共 %d 话"
+    },
+    {
+      "name": "offline_downloaded_summary_fmt",
+      "value": "已下载 %1$d 话 · %2$s"
+    },
+    {
+      "name": "offline_collapse",
+      "value": "收起"
+    },
+    {
+      "name": "offline_chapters",
+      "value": "选话"
+    },
+    {
+      "name": "offline_pages_fmt",
+      "value": "%d 页"
+    },
+    {
+      "name": "offline_deleted_toast",
+      "value": "已删除该漫画本地资源"
+    },
+    {
+      "name": "download_summary_fmt",
+      "value": "进行中 %1$d · 已完成 %2$d"
+    },
+    {
+      "name": "download_pages_progress_fmt",
+      "value": "%1$d / %2$s 张 · %3$d%%"
+    },
+    {
+      "name": "download_pages_failed_fmt",
+      "value": " · 失败 %d 张"
+    },
+    {
+      "name": "download_chapter_num_fmt",
+      "value": "章节 #%s"
+    },
+    {
+      "name": "auth_err_invalid_credentials",
+      "value": "账号或密码错误"
+    },
+    {
+      "name": "auth_err_empty",
+      "value": "请输入账号与密码"
+    },
+    {
+      "name": "auth_err_forbidden",
+      "value": "输入内容包含不允许的字符"
+    },
+    {
+      "name": "auth_err_server",
+      "value": "登录未生效，请稍后重试"
+    },
+    {
+      "name": "auth_err_network",
+      "value": "网络连接异常，请稍后重试"
+    },
+    {
+      "name": "auth_err_cookie_missing",
+      "value": "登录成功但未建立会话 Cookie，请检查网络后重试"
+    },
+    {
+      "name": "auth_err_session_rejected",
+      "value": "会话校验失败（Cookie 已建立但服务端未认可）"
+    },
+    {
+      "name": "auth_session_required",
+      "value": "登录已失效或未登录：NoyAcg 需要账号会话才能读取数据"
+    },
+    {
+      "name": "checkin_streak_label",
+      "value": "连续\\n签到"
+    },
+    {
+      "name": "checkin_days_unit",
+      "value": "天"
+    },
+    {
+      "name": "checkin_week_fmt",
+      "value": "本周 %1$d/%2$d 天"
+    },
+    {
+      "name": "checkin_bonus_banner",
+      "value": "每签到 7 天可获得额外积分！"
+    },
+    {
+      "name": "checkin_bonus_toast",
+      "value": "连续签到每满 7 天可额外获得积分奖励"
+    },
+    {
+      "name": "checkin_reminder_title",
+      "value": "签到提醒"
+    },
+    {
+      "name": "checkin_reminder_desc",
+      "value": "每日定时提醒你签到"
+    },
+    {
+      "name": "checkin_reminder_time",
+      "value": "提醒时间"
+    },
+    {
+      "name": "checkin_reminder_on_fmt",
+      "value": "已开启每日签到提醒（%s）"
+    },
+    {
+      "name": "checkin_reminder_off",
+      "value": "已关闭签到提醒"
+    },
+    {
+      "name": "checkin_reminder_updated_fmt",
+      "value": "提醒时间已设为 %s"
+    },
+    {
+      "name": "checkin_btn_done",
+      "value": "已签到"
+    },
+    {
+      "name": "checkin_btn_doing",
+      "value": "签到中..."
+    },
+    {
+      "name": "checkin_btn_do",
+      "value": "立即签到"
+    },
+    {
+      "name": "checkin_footer_hint",
+      "value": "可获得积分或更多随机礼品"
+    },
+    {
+      "name": "checkin_success_streak_fmt",
+      "value": "签到成功，连续 %d 天"
+    },
+    {
+      "name": "checkin_success_today",
+      "value": "今日签到完成"
+    },
+    {
+      "name": "checkin_session_expired",
+      "value": "登录已过期，请重新登录"
+    },
+    {
+      "name": "checkin_failed_retry",
+      "value": "签到失败，请稍后重试"
+    },
+    {
+      "name": "log_export_cancelled",
+      "value": "已取消导出"
+    },
+    {
+      "name": "net_export_success",
+      "value": "网络日志已导出"
+    },
+    {
+      "name": "diag_export_success",
+      "value": "错误报告已导出"
+    },
+    {
+      "name": "community_detail_all_comments_fmt",
+      "value": "全部评论 (%d)"
+    },
+    {
+      "name": "update_checking",
+      "value": "检查中..."
+    },
+    {
+      "name": "update_new_version_title_fmt",
+      "value": "发现新版本 v%s"
+    },
+    {
+      "name": "update_default_notes",
+      "value": "包含功能优化与稳定性改进，建议前往 GitHub 下载最新版本。"
+    },
+    {
+      "name": "update_github_download",
+      "value": "GitHub 下载"
+    },
+    {
+      "name": "update_up_to_date_fmt",
+      "value": "当前已是最新版本 (v%s)"
+    },
+    {
+      "name": "update_check_failed",
+      "value": "检查更新失败，请稍后重试"
+    },
+    {
+      "name": "update_open_browser_failed",
+      "value": "未找到可用浏览器，请手动访问 GitHub Releases 下载"
+    },
+    {
+      "name": "about_version_fmt",
+      "value": "版本 %s"
+    },
+    {
+      "name": "about_repo_label",
+      "value": "项目仓库"
+    },
+    {
+      "name": "about_deps_title",
+      "value": "第三方依赖"
+    },
+    {
+      "name": "about_deps_body",
+      "value": "- HarmonyOS SDK（ArkTS / ArkUI / HDS Kit / Core File Kit / Localization Kit）— Huawei / OpenHarmony SDK License\n- @ohos/hypium & @ohos/hamock — Apache License 2.0（仅用于本地单元测试）\n\n除上述官方基础套件外，应用未引入任何第三方闭源商业 SDK 或网络/UI 封装库。"
+    },
+    {
+      "name": "about_acks_title",
+      "value": "开源项目致谢"
+    },
+    {
+      "name": "about_acks_body",
+      "value": "本项目基于自主编写的原生 ArkTS 代码实现，未直接移植外部第三方开源项目源码。本仓库自身遵循 GNU General Public License v3.0 (GPL-3.0) 开源协议，所有实际依赖库均保留其原始许可证要求。"
+    },
+    {
+      "name": "about_inspiration_title",
+      "value": "设计灵感"
+    },
+    {
+      "name": "about_inspiration_body",
+      "value": "视觉与交互设计仅参考 HarmonyOS Design 规范及主流现代移动端阅读器的卡片层级与阅读体验，未使用上述参考对象的任何源代码。"
+    },
+    {
+      "name": "settings_view_logs",
+      "value": "查看日志"
+    },
+    {
+      "name": "settings_check_update",
+      "value": "检查更新"
+    },
+    {
+      "name": "settings_current_version_fmt",
+      "value": "当前版本 v%s"
+    },
+    {
+      "name": "settings_check_update_btn",
+      "value": "检查更新"
+    },
+    {
+      "name": "settings_checking_update",
+      "value": "检查中..."
+    },
+    {
+      "name": "reader_double_tap_zoom",
+      "value": "双击缩放"
+    },
+    {
+      "name": "reader_double_tap_zoom_delay_hint",
+      "value": "已开启双击缩放，呼出菜单可能会有轻微延迟"
+    },
+    {
+      "name": "reader_page_turn_animation",
+      "value": "翻页动画"
+    }
+  ]
+}

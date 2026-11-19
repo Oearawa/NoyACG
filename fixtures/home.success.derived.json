@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "bulletin": {
+    "text": "系統維護公告（範例，非真實資料）",
+    "show": true
+  },
+  "favDay": [
+    {
+      "Bid": 900401,
+      "Bookname": "日收藏範例 A",
+      "Author": "範例作者 A",
+      "Description": "用於首頁聚合解析測試的範例條目（非真實資料）",
+      "Ptag": "標籤甲 標籤乙",
+      "Otag": "其他標籤",
+      "Views": 100,
+      "Favorites": 50,
+      "RatingSUM": 86,
+      "Mode": 1,
+      "Status": 1,
+      "publish_year": "2023",
+      "Len": 20
+    },
+    {
+      "Bid": "900406",
+      "Bookname": "日收藏範例 F",
+      "Author": "範例作者 F"
+    }
+  ],
+  "readDay": [
+    {
+      "Bid": "900402",
+      "Bookname": "日閱讀範例 B",
+      "Author": "範例作者 B"
+    }
+  ],
+  "fs": [
+    {
+      "Bid": 900403,
+      "Bookname": "推薦位範例 C",
+      "Author": "範例作者 C",
+      "Mode": 1,
+      "Status": 0
+    }
+  ],
+  "proportion": [
+    {
+      "Bid": 900404,
+      "Bookname": "高質量範例 D"
+    },
+    {
+      "Bid": "900405",
+      "Bookname": "高質量範例 E",
+      "Author": "範例作者 E"
+    }
+  ],
+  "tags": "冒險 奇幻 戀愛"
+}

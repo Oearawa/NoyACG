@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": 900101,
+      "name": "範例作品 A",
+      "author": "範例作者 A",
+      "description": "用於解析測試的範例條目（非真實資料）",
+      "tags": ["標籤甲", "標籤乙"],
+      "pname": ["第 1 話"],
+      "otag": ["其他標籤"],
+      "views": 12345,
+      "favorites": 678,
+      "rating_sum": 4321,
+      "adult": false,
+      "mode": "book",
+      "status": "ongoing",
+      "publish_year": 2024,
+      "source": "book"
+    },
+    {
+      "id": "900102",
+      "name": "範例作品 B",
+      "author": "範例作者 B",
+      "description": "",
+      "tags": [],
+      "pname": [],
+      "otag": [],
+      "views": 0,
+      "favorites": 0,
+      "rating_sum": 0,
+      "adult": false,
+      "mode": "stream",
+      "status": "finished",
+      "publish_year": "2023",
+      "source": "stream"
+    },
+    {
+      "id": 900103,
+      "name": "最小欄位作品"
+    }
+  ],
+  "count": 42
+}

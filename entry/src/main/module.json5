@@ -1,0 +1,69 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    // ★ Phase 15-R2：应用级沉浸光感开关（官方 metadata，仅 entry 模块生效，需 targetSdkVersion ≥ 26）
+    //   enable = 允许应用内的系统材质生效（底栏 systemMaterial、菜单/弹窗/Select 等官方支持范围）。
+    //   取值语义见 SDK `@ohos.arkui.uiMaterial.d.ts` 的 MaterialState：
+    //     DEFAULT(0) 仅对 Dialog/Toast/AlphabetIndexer 等默认生效，其他组件由应用自行设置；
+    //     ENABLE(1)  材质优先于调用方设置的 backgroundColor / blur / shadow / border；
+    //     DISABLE(2) 任何组件都不生效。
+    //   本工程依赖 ENABLE 让 Tabs 悬浮栏的 systemMaterial 真正出材质，否则只能看到纯色回退。
+    "metadata": [
+      {
+        "name": "ohos.arkui.UIMaterial.state",
+        "value": "enable"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        // 应用图标：使用标准静态单层 PNG（兼容鸿蒙桌面与第三方 HAP 解析器）
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:start_window_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "orientation": "auto_rotation_restricted",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    // ★ 入口页面表（@Entry 页面）：loadContent('pages/Index') 依赖此配置注册入口页面。
+    //   与下方 routerMap（NavDestination 系统路由页）职责不同、并存不冲突：
+    //   pages 声明可被 loadContent 加载的 @Entry 页面，routerMap 声明 Navigation 目标页。
+    //   Phase 14-A 修复：此前缺失本配置，导致 pages/Index 未注册 → 启动白屏。
+    "pages": "$profile:main_pages",
+    // ★ 系统路由表（API 26 推荐）：Navigation 目标页统一在 route_map.json 注册，
+    //   编译期由工具链校验 buildFunction 与页面文件导出函数的对应关系
+    "routerMap": "$profile:route_map",
+    // ★ 网络权限：rcp 发起请求的硬性前提，缺失会导致所有请求被系统拒绝（system_grant 级别，无需用户弹窗授权）
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      }
+    ]
+  }
+}

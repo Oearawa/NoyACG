@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "img": "https://img.noymanga.com/ads/1.webp",
+      "url": "https://example.com/promo/1"
+    },
+    {
+      "img": "http://cdn.example.com/ads/2.webp",
+      "url": "javascript:alert(1)"
+    },
+    {
+      "img": "ftp://bad.example/3.webp",
+      "url": ""
+    },
+    {
+      "img": "",
+      "url": "https://example.com/noimg"
+    }
+  ]
+}

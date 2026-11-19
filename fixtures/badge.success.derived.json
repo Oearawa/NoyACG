@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "Id": 8,
+      "Name": "徽章八",
+      "Img": "https://bucket.noymanga.com/image/b8.webp",
+      "Minimg": "https://bucket.noymanga.com/image/b8-min.webp",
+      "Des": "說明八"
+    },
+    {
+      "Id": 9,
+      "Name": "徽章九",
+      "Img": "https://bucket.noymanga.com/image/b9.webp",
+      "Minimg": "https://bucket.noymanga.com/image/b9-min.webp",
+      "Des": "說明九"
+    },
+    {
+      "Id": 10,
+      "Name": "徽章十",
+      "Img": "https://bucket.noymanga.com/image/b10.webp",
+      "Minimg": "https://bucket.noymanga.com/image/b10-min.webp",
+      "Des": "說明十"
+    },
+    {
+      "Id": "11",
+      "Name": "徽章十一",
+      "Img": "https://bucket.noymanga.com/image/b11.webp",
+      "Minimg": "https://bucket.noymanga.com/image/b11-min.webp",
+      "Des": "說明十一"
+    }
+  ],
+  "show": ["10", "11", "9", "8"]
+}

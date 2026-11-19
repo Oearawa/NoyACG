@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "data": {
+    "comments": [
+      {
+        "cid": 1001,
+        "uid": 0,
+        "username": "官方",
+        "content": "官方置頂公告（範例，非真實資料）",
+        "area": "官方公告",
+        "time": 1735689600,
+        "reply_num": 0
+      },
+      {
+        "cid": "1002",
+        "uid": "900007",
+        "username": "讀者甲",
+        "content": "畫風很棒",
+        "area": "China mainland",
+        "time": 1735689700,
+        "reply_num": 2,
+        "reply_more": true,
+        "replies": [
+          {
+            "cid": 2001,
+            "uid": "900008",
+            "username": "讀者乙",
+            "content": "同感",
+            "area": "China mainland",
+            "time": 1735689800
+          }
+        ]
+      }
+    ],
+    "page": 1,
+    "over": false,
+    "top_count": 1
+  }
+}

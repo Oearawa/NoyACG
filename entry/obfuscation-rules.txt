@@ -1,0 +1,5 @@
+# NoyAcg 混淆规则（release 构建默认关闭混淆，此文件仅占位，避免构建配置指向缺失文件）
+-enable-property-obfuscation
+-enable-toplevel-obfuscation
+-enable-filename-obfuscation
+-enable-export-obfuscation

@@ -1,0 +1,15 @@
+{
+  "categories": [
+    { "id": "a", "name": "分組 A" },
+    { "id": "b" },
+    { "id": "", "name": "無 id 分組" }
+  ],
+  "data": {
+    "a": [
+      { "id": 1, "name": "第 10 话", "sort": 10 },
+      { "id": 2, "name": "第 2 话", "sort": 2 },
+      { "id": 3, "sort": 3, "count": "7", "created_at": 1704196800 }
+    ],
+    "b": "not-an-array"
+  }
+}

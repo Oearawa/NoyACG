@@ -1,0 +1,26 @@
+{
+  "info": [
+    {
+      "Bid": 900201,
+      "Bookname": "範例作品 C",
+      "Author": "範例作者 C",
+      "Description": "用於書單解析測試的範例條目（非真實資料）",
+      "Ptag": "標籤丙",
+      "Otag": "其他標籤",
+      "Views": 100,
+      "Favorites": 9,
+      "RatingSUM": 88,
+      "Adult": 0,
+      "Mode": 1,
+      "Status": 0,
+      "publish_year": "2023",
+      "Len": 32
+    },
+    {
+      "Bid": "900202",
+      "Bookname": "範例作品 D",
+      "Author": "範例作者 D"
+    }
+  ],
+  "len": 21
+}

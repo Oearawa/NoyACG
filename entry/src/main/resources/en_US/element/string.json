@@ -1,0 +1,2312 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "NoyAcg comic reader entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "NoyAcg Comic Reader"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NoyAcg"
+    },
+    {
+      "name": "tab_home",
+      "value": "Home"
+    },
+    {
+      "name": "tab_latest",
+      "value": "Latest"
+    },
+    {
+      "name": "tab_community",
+      "value": "Community"
+    },
+    {
+      "name": "tab_shelf",
+      "value": "Shelf"
+    },
+    {
+      "name": "tab_user",
+      "value": "Profile"
+    },
+    {
+      "name": "profile_guest",
+      "value": "Guest"
+    },
+    {
+      "name": "profile_login",
+      "value": "Sign In"
+    },
+    {
+      "name": "profile_logout",
+      "value": "Sign Out"
+    },
+    {
+      "name": "profile_logout_doing",
+      "value": "Signing out..."
+    },
+    {
+      "name": "profile_checking",
+      "value": "Verifying session..."
+    },
+    {
+      "name": "profile_check_failed",
+      "value": "Session check failed"
+    },
+    {
+      "name": "profile_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "profile_login_hint",
+      "value": "Sign in to sync favorites, messages, and reading progress"
+    },
+    {
+      "name": "profile_about",
+      "value": "About"
+    },
+    {
+      "name": "profile_about_license",
+      "value": "Licenses & Info"
+    },
+    {
+      "name": "profile_data_source",
+      "value": "Source"
+    },
+    {
+      "name": "profile_app_version",
+      "value": "App Version"
+    },
+    {
+      "name": "profile_env",
+      "value": "Environment"
+    },
+    {
+      "name": "profile_env_value",
+      "value": "HarmonyOS %s · API 26"
+    },
+    {
+      "name": "profile_uid",
+      "value": "UID: %s"
+    },
+    {
+      "name": "profile_settings_accessibility",
+      "value": "Settings: preferences, storage, and advanced options"
+    },
+    {
+      "name": "menu_message",
+      "value": "Messages"
+    },
+    {
+      "name": "menu_message_desc",
+      "value": "Comment replies, community replies, and notices"
+    },
+    {
+      "name": "menu_shelf",
+      "value": "My Favorites"
+    },
+    {
+      "name": "menu_shelf_desc",
+      "value": "Account favorites and local bookshelf"
+    },
+    {
+      "name": "menu_history",
+      "value": "History"
+    },
+    {
+      "name": "menu_history_desc",
+      "value": "Continue where you left off"
+    },
+    {
+      "name": "menu_download",
+      "value": "Downloads"
+    },
+    {
+      "name": "menu_download_desc",
+      "value": "Download queue, tasks, and file cleanup"
+    },
+    {
+      "name": "menu_offline_books",
+      "value": "Offline Reading"
+    },
+    {
+      "name": "menu_offline_books_desc",
+      "value": "Read downloaded comics offline"
+    },
+    {
+      "name": "menu_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "settings_title",
+      "value": "Settings"
+    },
+    {
+      "name": "group_prefs",
+      "value": "Content & Preferences"
+    },
+    {
+      "name": "group_storage",
+      "value": "Storage"
+    },
+    {
+      "name": "group_appearance",
+      "value": "Display & Appearance"
+    },
+    {
+      "name": "group_privacy",
+      "value": "Account & Privacy"
+    },
+    {
+      "name": "group_advanced",
+      "value": "Advanced"
+    },
+    {
+      "name": "unavailable",
+      "value": "Unavailable"
+    },
+    {
+      "name": "settings_rating_title",
+      "value": "Content Rating"
+    },
+    {
+      "name": "settings_rating_desc",
+      "value": "Choose all-ages or restricted works"
+    },
+    {
+      "name": "rating_all_ages",
+      "value": "All Ages Only"
+    },
+    {
+      "name": "rating_adult",
+      "value": "Restricted Only"
+    },
+    {
+      "name": "rating_all",
+      "value": "Show All"
+    },
+    {
+      "name": "settings_rating_hint",
+      "value": "Takes effect immediately across requests; reading direction can be set in the reader"
+    },
+    {
+      "name": "settings_language",
+      "value": "App Language"
+    },
+    {
+      "name": "lang_system",
+      "value": "Follow System"
+    },
+    {
+      "name": "lang_zh_cn",
+      "value": "简体中文"
+    },
+    {
+      "name": "lang_zh_tw",
+      "value": "繁體中文"
+    },
+    {
+      "name": "settings_language_hint",
+      "value": "Switch display language (restart app to apply)"
+    },
+    {
+      "name": "toast_lang_saved",
+      "value": "Language saved. Restart app to apply."
+    },
+    {
+      "name": "toast_lang_system",
+      "value": "Switched to Follow System. Restart app to apply."
+    },
+    {
+      "name": "toast_lang_failed",
+      "value": "Failed to change language. Previous setting kept."
+    },
+    {
+      "name": "settings_server",
+      "value": "Server Route"
+    },
+    {
+      "name": "settings_server_reason",
+      "value": "Only the official endpoint (noymanga.com) is available"
+    },
+    {
+      "name": "settings_block_tags",
+      "value": "Blocked Tags"
+    },
+    {
+      "name": "settings_block_tags_desc",
+      "value": "Automatically hide works with specified tags"
+    },
+    {
+      "name": "storage_cache",
+      "value": "Image Cache"
+    },
+    {
+      "name": "storage_cache_desc",
+      "value": "Temporary online reading cache; offline downloads stay intact"
+    },
+    {
+      "name": "storage_cache_clear",
+      "value": "Clear Image Cache"
+    },
+    {
+      "name": "storage_cache_clearing",
+      "value": "Clearing..."
+    },
+    {
+      "name": "storage_offline",
+      "value": "Offline Data"
+    },
+    {
+      "name": "storage_offline_desc",
+      "value": "View and manage downloaded comic chapters"
+    },
+    {
+      "name": "storage_offline_manage",
+      "value": "Go to Downloads →"
+    },
+    {
+      "name": "storage_calc",
+      "value": "Calculating..."
+    },
+    {
+      "name": "storage_failed",
+      "value": "Calculation failed"
+    },
+    {
+      "name": "settings_time_format",
+      "value": "Time Format"
+    },
+    {
+      "name": "time_abs",
+      "value": "Absolute"
+    },
+    {
+      "name": "time_rel",
+      "value": "Relative"
+    },
+    {
+      "name": "toast_time_format_partial",
+      "value": "Time format switched, but failed to persist locally"
+    },
+    {
+      "name": "settings_theme",
+      "value": "Theme Mode"
+    },
+    {
+      "name": "theme_system",
+      "value": "Follow System"
+    },
+    {
+      "name": "theme_light",
+      "value": "Light"
+    },
+    {
+      "name": "theme_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "settings_theme_hint",
+      "value": "Choose light, dark, or system theme"
+    },
+    {
+      "name": "toast_theme_saved",
+      "value": "Theme updated"
+    },
+    {
+      "name": "toast_theme_failed",
+      "value": "Failed to switch theme. Reverted."
+    },
+    {
+      "name": "settings_privacy",
+      "value": "Privacy"
+    },
+    {
+      "name": "settings_privacy_reason",
+      "value": "Server does not provide profile/comment visibility settings"
+    },
+    {
+      "name": "adv_report",
+      "value": "App Error Logs"
+    },
+    {
+      "name": "adv_report_desc",
+      "value": "View app exceptions affecting normal usage"
+    },
+    {
+      "name": "adv_log",
+      "value": "Network Logs"
+    },
+    {
+      "name": "adv_log_desc",
+      "value": "View API request status and latency for troubleshooting"
+    },
+    {
+      "name": "adv_cache",
+      "value": "Cache Policy"
+    },
+    {
+      "name": "adv_cache_desc",
+      "value": "Set image cache limit and auto-cleanup rules"
+    },
+    {
+      "name": "dialog_logout_title",
+      "value": "Sign Out"
+    },
+    {
+      "name": "dialog_logout_body",
+      "value": "This will revoke the server session and clear local login state. Local favorites, downloads, history, and settings are kept."
+    },
+    {
+      "name": "dialog_logout_confirm",
+      "value": "Sign Out"
+    },
+    {
+      "name": "dialog_clear_cache_title",
+      "value": "Clear Image Cache"
+    },
+    {
+      "name": "dialog_clear_cache_body",
+      "value": "About %s of cached images will be removed. Favorites, reading progress, and offline chapters are not affected."
+    },
+    {
+      "name": "dialog_clear_confirm",
+      "value": "Clear"
+    },
+    {
+      "name": "common_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "common_back",
+      "value": "Back"
+    },
+    {
+      "name": "common_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "common_confirm",
+      "value": "Confirm"
+    },
+    {
+      "name": "toast_logout_done",
+      "value": "Signed out"
+    },
+    {
+      "name": "toast_logout_failed",
+      "value": "Sign out failed. Please try again."
+    },
+    {
+      "name": "toast_cache_freed",
+      "value": "Cleared %s"
+    },
+    {
+      "name": "toast_cache_partial",
+      "value": "Cleared %s (%d files could not be removed)"
+    },
+    {
+      "name": "toast_cache_empty",
+      "value": "Cache is already empty"
+    },
+    {
+      "name": "toast_cache_failed",
+      "value": "Clear failed. Please try again later."
+    },
+    {
+      "name": "time_just_now",
+      "value": "Just now"
+    },
+    {
+      "name": "time_minutes_ago",
+      "value": "%d min ago"
+    },
+    {
+      "name": "time_hours_ago",
+      "value": "%d hr ago"
+    },
+    {
+      "name": "time_days_ago",
+      "value": "%d d ago"
+    },
+    {
+      "name": "about_desc",
+      "value": "Third-party HarmonyOS client for NoyACG"
+    },
+    {
+      "name": "about_uid",
+      "value": "Current UID"
+    },
+    {
+      "name": "about_license",
+      "value": "Open Source Licenses"
+    },
+    {
+      "name": "about_license_body",
+      "value": "Third-party components (HarmonyOS SDK, hypium, etc.) follow their respective open-source licenses. See repository license files for details."
+    },
+    {
+      "name": "discovery_rank",
+      "value": "Rankings"
+    },
+    {
+      "name": "discovery_category",
+      "value": "Categories"
+    },
+    {
+      "name": "discovery_search",
+      "value": "Search"
+    },
+    {
+      "name": "discovery_personalized",
+      "value": "For You"
+    },
+    {
+      "name": "pagination_total",
+      "value": "Total: %d"
+    },
+    {
+      "name": "pagination_pages",
+      "value": "Pages: %d"
+    },
+    {
+      "name": "pagination_loaded",
+      "value": "Loaded: %d"
+    },
+    {
+      "name": "pagination_local_pages",
+      "value": "Local Pages: %d"
+    },
+    {
+      "name": "pagination_unknown",
+      "value": "Total unknown"
+    },
+    {
+      "name": "pagination_jump",
+      "value": "Go to"
+    },
+    {
+      "name": "pagination_prev",
+      "value": "Prev"
+    },
+    {
+      "name": "pagination_next",
+      "value": "Next"
+    },
+    {
+      "name": "pagination_jump_title",
+      "value": "Jump to Page"
+    },
+    {
+      "name": "pagination_jump_placeholder",
+      "value": "Enter page number"
+    },
+    {
+      "name": "pagination_jump_confirm",
+      "value": "Go"
+    },
+    {
+      "name": "pagination_jump_invalid",
+      "value": "Please enter a positive integer"
+    },
+    {
+      "name": "pagination_jump_range",
+      "value": "Page must be between 1 and %d"
+    },
+    {
+      "name": "rank_title",
+      "value": "Rankings"
+    },
+    {
+      "name": "rank_reading",
+      "value": "Reading"
+    },
+    {
+      "name": "rank_favorite",
+      "value": "Favorites"
+    },
+    {
+      "name": "rank_high_quality",
+      "value": "Top Rated"
+    },
+    {
+      "name": "rank_day",
+      "value": "Daily"
+    },
+    {
+      "name": "rank_week",
+      "value": "Weekly"
+    },
+    {
+      "name": "rank_month",
+      "value": "Monthly"
+    },
+    {
+      "name": "rank_source_note",
+      "value": "Ordered by official leaderboard API response"
+    },
+    {
+      "name": "rank_empty",
+      "value": "No Rankings"
+    },
+    {
+      "name": "rank_empty_desc",
+      "value": "No ranking items available"
+    },
+    {
+      "name": "category_title",
+      "value": "Categories"
+    },
+    {
+      "name": "category_empty",
+      "value": "No Categories"
+    },
+    {
+      "name": "category_empty_desc",
+      "value": "Failed to load categories"
+    },
+    {
+      "name": "category_empty_hint",
+      "value": "No categories returned from server"
+    },
+    {
+      "name": "category_placeholder",
+      "value": "Placeholder"
+    },
+    {
+      "name": "category_fantasy",
+      "value": "Fantasy"
+    },
+    {
+      "name": "category_romance",
+      "value": "Romance"
+    },
+    {
+      "name": "category_daily",
+      "value": "Slice of Life"
+    },
+    {
+      "name": "category_comedy",
+      "value": "Comedy"
+    },
+    {
+      "name": "category_hotblood",
+      "value": "Shonen"
+    },
+    {
+      "name": "category_action",
+      "value": "Action"
+    },
+    {
+      "name": "category_mystery",
+      "value": "Mystery"
+    },
+    {
+      "name": "category_healing",
+      "value": "Healing"
+    },
+    {
+      "name": "category_school",
+      "value": "School"
+    },
+    {
+      "name": "category_music",
+      "value": "Music"
+    },
+    {
+      "name": "category_four_panel",
+      "value": "4-Koma"
+    },
+    {
+      "name": "category_yuri",
+      "value": "Yuri"
+    },
+    {
+      "name": "category_tag_fantasy",
+      "value": "奇幻"
+    },
+    {
+      "name": "category_tag_romance",
+      "value": "戀愛"
+    },
+    {
+      "name": "category_tag_daily",
+      "value": "日常"
+    },
+    {
+      "name": "category_tag_comedy",
+      "value": "搞笑"
+    },
+    {
+      "name": "category_tag_hotblood",
+      "value": "熱血"
+    },
+    {
+      "name": "category_tag_action",
+      "value": "動作"
+    },
+    {
+      "name": "category_tag_mystery",
+      "value": "懸疑"
+    },
+    {
+      "name": "category_tag_healing",
+      "value": "治癒"
+    },
+    {
+      "name": "category_tag_school",
+      "value": "校園"
+    },
+    {
+      "name": "category_tag_music",
+      "value": "音樂"
+    },
+    {
+      "name": "category_tag_four_panel",
+      "value": "四格"
+    },
+    {
+      "name": "category_tag_yuri",
+      "value": "百合"
+    },
+    {
+      "name": "personalized_title",
+      "value": "For You"
+    },
+    {
+      "name": "recommend_empty_title",
+      "value": "No Recommendations"
+    },
+    {
+      "name": "recommend_empty_desc",
+      "value": "Favorite more works to get personalized picks"
+    },
+    {
+      "name": "home_section_read_rank",
+      "value": "Today's Reading"
+    },
+    {
+      "name": "home_section_fav_rank",
+      "value": "Today's Favorites"
+    },
+    {
+      "name": "home_section_recommend",
+      "value": "Popular Favorites"
+    },
+    {
+      "name": "home_section_quality",
+      "value": "Top Rated"
+    },
+    {
+      "name": "blocked_scope_local",
+      "value": "Scope: Local (Guest)"
+    },
+    {
+      "name": "blocked_scope_account",
+      "value": "Scope: Local · Current Account"
+    },
+    {
+      "name": "blocked_scope_note",
+      "value": "Blocked tags are stored locally only and switch automatically per account."
+    },
+    {
+      "name": "blocked_empty",
+      "value": "No Blocked Tags"
+    },
+    {
+      "name": "blocked_empty_desc",
+      "value": "Works matching blocked tags are hidden from Home, Rankings, Search, and Picks."
+    },
+    {
+      "name": "blocked_add_placeholder",
+      "value": "Enter exact tag name"
+    },
+    {
+      "name": "blocked_add",
+      "value": "Add Tag"
+    },
+    {
+      "name": "blocked_remove",
+      "value": "Remove"
+    },
+    {
+      "name": "blocked_clear",
+      "value": "Clear All Tags"
+    },
+    {
+      "name": "blocked_clear_confirm",
+      "value": "All blocked tags will be removed and hidden works will reappear."
+    },
+    {
+      "name": "blocked_invalid",
+      "value": "Enter a valid tag name (max 40 chars)"
+    },
+    {
+      "name": "blocked_limit",
+      "value": "Up to %d tags can be blocked"
+    },
+    {
+      "name": "blocked_save_failed",
+      "value": "Applied in memory, but failed to save locally"
+    },
+    {
+      "name": "cache_usage_title",
+      "value": "Current Usage"
+    },
+    {
+      "name": "cache_limit_title",
+      "value": "Cache Limit"
+    },
+    {
+      "name": "cache_limit_desc",
+      "value": "When image cache exceeds the limit, oldest viewed images are cleared automatically"
+    },
+    {
+      "name": "cache_limit_mb500",
+      "value": "500 MB"
+    },
+    {
+      "name": "cache_limit_gb1",
+      "value": "1 GB"
+    },
+    {
+      "name": "cache_limit_unlimited",
+      "value": "Unlimited"
+    },
+    {
+      "name": "cache_lru_note",
+      "value": "Auto-cleanup only removes online image cache and never deletes offline comics"
+    },
+    {
+      "name": "cache_offline_isolated",
+      "value": "When the limit is reached, older cached images are freed first"
+    },
+    {
+      "name": "cache_clean_now",
+      "value": "Recalculate"
+    },
+    {
+      "name": "cache_clean_never",
+      "value": "Cache is below the limit; no auto-cleanup needed"
+    },
+    {
+      "name": "cache_clean_result",
+      "value": "Cleared %d files (%s freed)"
+    },
+    {
+      "name": "cache_over_limit",
+      "value": "Usage exceeds limit and will be cleaned on next check"
+    },
+    {
+      "name": "cache_limit_save_failed",
+      "value": "Failed to save cache limit locally"
+    },
+    {
+      "name": "dialog_clear_cache_body_short",
+      "value": "Only image cache will be removed; offline chapters, favorites, and progress are safe."
+    },
+    {
+      "name": "diag_filter_all",
+      "value": "All"
+    },
+    {
+      "name": "diag_filter_error",
+      "value": "Errors"
+    },
+    {
+      "name": "diag_filter_warn",
+      "value": "Warnings"
+    },
+    {
+      "name": "diag_capability_note",
+      "value": "Records only app exceptions affecting normal usage for troubleshooting"
+    },
+    {
+      "name": "diag_export",
+      "value": "Export Logs"
+    },
+    {
+      "name": "diag_export_ok",
+      "value": "Exported to %s"
+    },
+    {
+      "name": "diag_export_failed",
+      "value": "Export failed. Please try again."
+    },
+    {
+      "name": "diag_clear",
+      "value": "Clear Logs"
+    },
+    {
+      "name": "diag_clear_confirm",
+      "value": "This cannot be undone. Continue?"
+    },
+    {
+      "name": "diag_empty",
+      "value": "Everything looks good; no error records"
+    },
+    {
+      "name": "diag_empty_desc",
+      "value": "Everything looks good; no error records"
+    },
+    {
+      "name": "net_filter_all",
+      "value": "All"
+    },
+    {
+      "name": "net_filter_error",
+      "value": "Failed"
+    },
+    {
+      "name": "net_filter_ok",
+      "value": "Success"
+    },
+    {
+      "name": "net_search_hint",
+      "value": "Search by endpoint path"
+    },
+    {
+      "name": "net_privacy_note",
+      "value": "Records only API status and latency for troubleshooting; excludes credentials and private data"
+    },
+    {
+      "name": "net_export",
+      "value": "Export Logs"
+    },
+    {
+      "name": "net_export_ok",
+      "value": "Exported to %s"
+    },
+    {
+      "name": "net_export_failed",
+      "value": "Export failed. Please try again."
+    },
+    {
+      "name": "net_clear",
+      "value": "Clear Logs"
+    },
+    {
+      "name": "net_clear_confirm",
+      "value": "This cannot be undone. Continue?"
+    },
+    {
+      "name": "net_empty",
+      "value": "No Network Logs"
+    },
+    {
+      "name": "net_empty_desc",
+      "value": "Logs appear automatically after browsing or refreshing."
+    },
+    {
+      "name": "badge_status_completed",
+      "value": "Completed"
+    },
+    {
+      "name": "badge_status_ongoing",
+      "value": "Ongoing"
+    },
+    {
+      "name": "badge_kw_kinky",
+      "value": "Extreme"
+    },
+    {
+      "name": "badge_kw_ntr",
+      "value": "NTR"
+    },
+    {
+      "name": "badge_kw_uncle",
+      "value": "Older"
+    },
+    {
+      "name": "state_empty_default",
+      "value": "No Content"
+    },
+    {
+      "name": "state_error_default",
+      "value": "Load Failed"
+    },
+    {
+      "name": "settings_manage_tags",
+      "value": "Manage"
+    },
+    {
+      "name": "settings_time_format_desc",
+      "value": "Choose how timestamps appear in lists and comments"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "Theme Mode"
+    },
+    {
+      "name": "settings_theme_accent",
+      "value": "Theme Color"
+    },
+    {
+      "name": "settings_theme_accent_desc",
+      "value": "Choose accent color for the app"
+    },
+    {
+      "name": "group_navbar",
+      "value": "Navigation Bar"
+    },
+    {
+      "name": "settings_navbar_entries",
+      "value": "Navigation Tabs"
+    },
+    {
+      "name": "settings_navbar_entries_desc",
+      "value": "Home and User are pinned; toggle optional tabs"
+    },
+    {
+      "name": "nav_latest",
+      "value": "Latest"
+    },
+    {
+      "name": "nav_community",
+      "value": "Community"
+    },
+    {
+      "name": "nav_shelf",
+      "value": "Shelf"
+    },
+    {
+      "name": "settings_navbar_shelf_hint",
+      "value": "Even if Shelf is hidden, you can still open it in User → Shelf"
+    },
+    {
+      "name": "shelf_title",
+      "value": "Shelf"
+    },
+    {
+      "name": "shelf_count_account",
+      "value": "Account: %d"
+    },
+    {
+      "name": "shelf_count_local",
+      "value": "Local: %d"
+    },
+    {
+      "name": "shelf_seg_account",
+      "value": "Account"
+    },
+    {
+      "name": "shelf_seg_local",
+      "value": "Local"
+    },
+    {
+      "name": "shelf_account_empty_title",
+      "value": "No Account Favorites"
+    },
+    {
+      "name": "shelf_account_empty_msg",
+      "value": "Comics favorited on NoyAcg will appear here"
+    },
+    {
+      "name": "shelf_account_login_prompt",
+      "value": "Sign in to view account favorites"
+    },
+    {
+      "name": "shelf_local_empty_title",
+      "value": "No Local Favorites"
+    },
+    {
+      "name": "shelf_local_empty_msg",
+      "value": "Tap the star on a comic detail page to save locally"
+    },
+    {
+      "name": "common_go_login",
+      "value": "Sign In"
+    },
+    {
+      "name": "common_search",
+      "value": "Search"
+    },
+    {
+      "name": "common_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "common_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "common_reset",
+      "value": "Reset"
+    },
+    {
+      "name": "common_refresh",
+      "value": "Refresh"
+    },
+    {
+      "name": "common_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "common_reply",
+      "value": "Reply"
+    },
+    {
+      "name": "common_send",
+      "value": "Send"
+    },
+    {
+      "name": "common_sending",
+      "value": "Sending..."
+    },
+    {
+      "name": "common_loading_more",
+      "value": "Loading more..."
+    },
+    {
+      "name": "common_no_more",
+      "value": "No more items"
+    },
+    {
+      "name": "latest_title",
+      "value": "Latest"
+    },
+    {
+      "name": "latest_sort_new",
+      "value": "Newest"
+    },
+    {
+      "name": "latest_sort_views",
+      "value": "Viewed"
+    },
+    {
+      "name": "latest_sort_favorites",
+      "value": "Liked"
+    },
+    {
+      "name": "latest_sort_rating",
+      "value": "Rated"
+    },
+    {
+      "name": "latest_filter_all",
+      "value": "All"
+    },
+    {
+      "name": "latest_filter_ongoing",
+      "value": "Ongoing"
+    },
+    {
+      "name": "latest_filter_completed",
+      "value": "Completed"
+    },
+    {
+      "name": "community_title",
+      "value": "Community"
+    },
+    {
+      "name": "community_loading",
+      "value": "Loading community posts..."
+    },
+    {
+      "name": "community_load_failed",
+      "value": "Failed to load posts"
+    },
+    {
+      "name": "community_load_more_failed",
+      "value": "Failed to load more, tap to retry"
+    },
+    {
+      "name": "community_empty_search",
+      "value": "No matching posts"
+    },
+    {
+      "name": "community_empty",
+      "value": "No community posts yet"
+    },
+    {
+      "name": "community_new_post",
+      "value": "Post"
+    },
+    {
+      "name": "community_search_hint",
+      "value": "Search community posts..."
+    },
+    {
+      "name": "community_pinned",
+      "value": "Pinned"
+    },
+    {
+      "name": "community_spoiler_hint",
+      "value": "Spoiler / Sensitive · Tap to view"
+    },
+    {
+      "name": "community_create_title",
+      "value": "New Post"
+    },
+    {
+      "name": "community_create_title_ph",
+      "value": "Enter post title (required)"
+    },
+    {
+      "name": "community_create_content_ph",
+      "value": "Share your thoughts, recommendations, or discussion..."
+    },
+    {
+      "name": "community_uploading",
+      "value": "Uploading"
+    },
+    {
+      "name": "community_upload_failed",
+      "value": "Failed"
+    },
+    {
+      "name": "community_tap_retry",
+      "value": "Tap to retry"
+    },
+    {
+      "name": "community_emoji",
+      "value": "Emoji"
+    },
+    {
+      "name": "community_image",
+      "value": "Image"
+    },
+    {
+      "name": "community_publish",
+      "value": "Publish"
+    },
+    {
+      "name": "community_publishing",
+      "value": "Publishing..."
+    },
+    {
+      "name": "community_err_ctx",
+      "value": "Unable to get app context"
+    },
+    {
+      "name": "community_err_pick_img",
+      "value": "Failed to pick image"
+    },
+    {
+      "name": "community_err_upload",
+      "value": "Upload failed"
+    },
+    {
+      "name": "community_err_wait_upload",
+      "value": "Please wait for uploads to finish or remove failed images"
+    },
+    {
+      "name": "community_err_publish",
+      "value": "Failed to publish, please try again"
+    },
+    {
+      "name": "community_edit_title",
+      "value": "Edit Post"
+    },
+    {
+      "name": "community_edit_note",
+      "value": "Note: Only title and body can be edited; published images cannot be changed"
+    },
+    {
+      "name": "community_edit_title_ph",
+      "value": "Enter post title"
+    },
+    {
+      "name": "community_edit_content_ph",
+      "value": "Enter post content"
+    },
+    {
+      "name": "community_save_changes",
+      "value": "Save Changes"
+    },
+    {
+      "name": "community_saving",
+      "value": "Saving..."
+    },
+    {
+      "name": "community_err_save",
+      "value": "Failed to save, please try again"
+    },
+    {
+      "name": "community_detail_title",
+      "value": "Post Detail"
+    },
+    {
+      "name": "community_detail_loading",
+      "value": "Loading post..."
+    },
+    {
+      "name": "community_detail_invalid_id",
+      "value": "Invalid post ID"
+    },
+    {
+      "name": "community_detail_load_failed",
+      "value": "Failed to load post"
+    },
+    {
+      "name": "community_detail_no_comments",
+      "value": "No comments yet"
+    },
+    {
+      "name": "community_detail_loading_comments",
+      "value": "Loading more comments..."
+    },
+    {
+      "name": "community_detail_all_comments",
+      "value": "All comments shown"
+    },
+    {
+      "name": "community_detail_view_replies_count",
+      "value": "View all %d replies >"
+    },
+    {
+      "name": "community_detail_view_replies",
+      "value": "View all replies >"
+    },
+    {
+      "name": "community_detail_reply_to",
+      "value": "Reply to @%s..."
+    },
+    {
+      "name": "community_detail_comment_ph",
+      "value": "Write a comment..."
+    },
+    {
+      "name": "community_detail_sub_title",
+      "value": "Replies"
+    },
+    {
+      "name": "community_detail_reply_comment",
+      "value": "Reply to comment"
+    },
+    {
+      "name": "community_detail_loading_replies",
+      "value": "Loading replies..."
+    },
+    {
+      "name": "community_detail_all_replies",
+      "value": "All replies shown"
+    },
+    {
+      "name": "community_detail_sub_failed",
+      "value": "Failed to load replies"
+    },
+    {
+      "name": "community_detail_reply_failed",
+      "value": "Failed to send reply"
+    },
+    {
+      "name": "download_title",
+      "value": "Downloads"
+    },
+    {
+      "name": "download_offline_usage",
+      "value": "Offline Storage"
+    },
+    {
+      "name": "download_resume_all",
+      "value": "Resume All"
+    },
+    {
+      "name": "download_pause_all",
+      "value": "Pause All"
+    },
+    {
+      "name": "download_cancel_all",
+      "value": "Cancel All"
+    },
+    {
+      "name": "download_clear_offline",
+      "value": "Clear Offline"
+    },
+    {
+      "name": "download_empty_title",
+      "value": "No Download Tasks"
+    },
+    {
+      "name": "download_empty_desc",
+      "value": "Add chapters from a comic detail page to track progress and read offline."
+    },
+    {
+      "name": "download_offline_badge",
+      "value": "Offline"
+    },
+    {
+      "name": "download_detail",
+      "value": "Detail"
+    },
+    {
+      "name": "download_pause",
+      "value": "Pause"
+    },
+    {
+      "name": "download_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "download_resume",
+      "value": "Resume"
+    },
+    {
+      "name": "download_repair",
+      "value": "Repair"
+    },
+    {
+      "name": "download_read_offline",
+      "value": "Read Offline"
+    },
+    {
+      "name": "download_clear_all_title",
+      "value": "Clear All Offline Files"
+    },
+    {
+      "name": "download_clear_all_confirm",
+      "value": "Clear All"
+    },
+    {
+      "name": "download_delete_task_title",
+      "value": "Delete Download Task"
+    },
+    {
+      "name": "download_delete_task_msg",
+      "value": "Delete Files will permanently remove downloaded images for this chapter. This cannot be undone."
+    },
+    {
+      "name": "download_delete_record_only",
+      "value": "Record Only"
+    },
+    {
+      "name": "download_delete_files",
+      "value": "Delete Files"
+    },
+    {
+      "name": "download_status_queued",
+      "value": "Queued"
+    },
+    {
+      "name": "download_status_preparing",
+      "value": "Preparing"
+    },
+    {
+      "name": "download_status_downloading",
+      "value": "Downloading"
+    },
+    {
+      "name": "download_status_paused",
+      "value": "Paused"
+    },
+    {
+      "name": "download_status_completed",
+      "value": "Completed"
+    },
+    {
+      "name": "download_status_failed",
+      "value": "Failed"
+    },
+    {
+      "name": "download_status_canceled",
+      "value": "Canceled"
+    },
+    {
+      "name": "download_status_incomplete",
+      "value": "Incomplete"
+    },
+    {
+      "name": "offline_title",
+      "value": "Offline Reading"
+    },
+    {
+      "name": "offline_delete_title",
+      "value": "Delete Local Files"
+    },
+    {
+      "name": "offline_delete_all_title",
+      "value": "Delete All Offline Resources"
+    },
+    {
+      "name": "message_title",
+      "value": "Messages"
+    },
+    {
+      "name": "message_kind_comment",
+      "value": "Comments"
+    },
+    {
+      "name": "message_kind_community",
+      "value": "Community"
+    },
+    {
+      "name": "message_kind_system",
+      "value": "System"
+    },
+    {
+      "name": "message_login_required",
+      "value": "Sign in to view messages"
+    },
+    {
+      "name": "message_login_prompt_title",
+      "value": "Sign In Required"
+    },
+    {
+      "name": "message_login_prompt_desc",
+      "value": "Sign in to view comment and community replies"
+    },
+    {
+      "name": "message_empty",
+      "value": "No messages"
+    },
+    {
+      "name": "message_load_more",
+      "value": "Load More"
+    },
+    {
+      "name": "message_loading",
+      "value": "Loading..."
+    },
+    {
+      "name": "message_no_content",
+      "value": "(No content)"
+    },
+    {
+      "name": "profile_title",
+      "value": "User Center"
+    },
+    {
+      "name": "profile_checkin_done",
+      "value": "Checked In"
+    },
+    {
+      "name": "profile_checkin_do",
+      "value": "Check In"
+    },
+    {
+      "name": "search_title",
+      "value": "Search"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "Search title / author / tag"
+    },
+    {
+      "name": "search_history",
+      "value": "Search History"
+    },
+    {
+      "name": "search_history_empty",
+      "value": "No search history yet. Try popular tags below or enter keywords."
+    },
+    {
+      "name": "search_hot",
+      "value": "Trending"
+    },
+    {
+      "name": "search_reset_filter",
+      "value": "Reset Filters"
+    },
+    {
+      "name": "search_clear_title",
+      "value": "Clear Search History"
+    },
+    {
+      "name": "search_clear_msg",
+      "value": "Clear all search history?"
+    },
+    {
+      "name": "search_failed",
+      "value": "Search Failed"
+    },
+    {
+      "name": "search_empty",
+      "value": "No matching comics"
+    },
+    {
+      "name": "search_need_login",
+      "value": "NoyAcg Sign In Required"
+    },
+    {
+      "name": "search_sort_default",
+      "value": "Default"
+    },
+    {
+      "name": "search_type_all",
+      "value": "All Types"
+    },
+    {
+      "name": "search_type_comic",
+      "value": "Comics"
+    },
+    {
+      "name": "search_type_anime",
+      "value": "Anime"
+    },
+    {
+      "name": "search_progress_all",
+      "value": "All Status"
+    },
+    {
+      "name": "search_load_more",
+      "value": "Loading more..."
+    },
+    {
+      "name": "search_load_more_failed",
+      "value": "Failed to load more"
+    },
+    {
+      "name": "search_end",
+      "value": "— End of results —"
+    },
+    {
+      "name": "login_title",
+      "value": "Sign In"
+    },
+    {
+      "name": "login_subtitle",
+      "value": "Sign in to sync your shelf, history, and community"
+    },
+    {
+      "name": "login_username_ph",
+      "value": "Account / Username"
+    },
+    {
+      "name": "login_password_ph",
+      "value": "Password"
+    },
+    {
+      "name": "login_submitting",
+      "value": "Signing in..."
+    },
+    {
+      "name": "login_submit",
+      "value": "Sign In"
+    },
+    {
+      "name": "login_success",
+      "value": "Signed in"
+    },
+    {
+      "name": "login_no_account",
+      "value": "Don't have an account?"
+    },
+    {
+      "name": "login_register_now",
+      "value": "Register now"
+    },
+    {
+      "name": "login_register_open_failed",
+      "value": "No browser available. Please register on the NoyAcg website."
+    },
+    {
+      "name": "login_err_empty_username",
+      "value": "Please enter your account"
+    },
+    {
+      "name": "login_err_empty_password",
+      "value": "Please enter your password"
+    },
+    {
+      "name": "login_err_failed",
+      "value": "Sign in failed. Please try again."
+    },
+    {
+      "name": "login_err_exception",
+      "value": "Sign in error. Please try again."
+    },
+    {
+      "name": "theme_accent_mist_iris",
+      "value": "Mist Iris"
+    },
+    {
+      "name": "theme_accent_celadon_sage",
+      "value": "Celadon Sage"
+    },
+    {
+      "name": "theme_accent_slate_blue",
+      "value": "Slate Blue"
+    },
+    {
+      "name": "theme_accent_muted_rose",
+      "value": "Muted Rose"
+    },
+    {
+      "name": "theme_accent_amber_tea",
+      "value": "Amber Tea"
+    },
+    {
+      "name": "theme_accent_graphite",
+      "value": "Graphite"
+    },
+    {
+      "name": "home_more",
+      "value": "More"
+    },
+    {
+      "name": "home_recommended",
+      "value": "New Releases"
+    },
+    {
+      "name": "pagination_page_jump",
+      "value": "%1$d/%2$d · Jump"
+    },
+    {
+      "name": "detail_title",
+      "value": "Comic Detail"
+    },
+    {
+      "name": "detail_load_failed",
+      "value": "Failed to load detail"
+    },
+    {
+      "name": "detail_check_network",
+      "value": "Please check your network and retry"
+    },
+    {
+      "name": "detail_no_chapters",
+      "value": "No Chapters"
+    },
+    {
+      "name": "detail_no_chapters_msg",
+      "value": "No chapter list returned. Please try again later."
+    },
+    {
+      "name": "detail_need_login",
+      "value": "Sign in to NoyAcg"
+    },
+    {
+      "name": "detail_need_login_msg",
+      "value": "Session expired or signed out. Sign in to view details and chapters."
+    },
+    {
+      "name": "detail_all_offline",
+      "value": "All chapters downloaded"
+    },
+    {
+      "name": "detail_added_offline",
+      "value": "Added to offline downloads"
+    },
+    {
+      "name": "detail_copied_share",
+      "value": "Copied share text"
+    },
+    {
+      "name": "detail_copied_link",
+      "value": "Link copied"
+    },
+    {
+      "name": "detail_copied_nid",
+      "value": "NID copied"
+    },
+    {
+      "name": "detail_action_download",
+      "value": "Download"
+    },
+    {
+      "name": "detail_action_share",
+      "value": "Share"
+    },
+    {
+      "name": "detail_share_copy_link",
+      "value": "Copy Link"
+    },
+    {
+      "name": "detail_share_copy_nid",
+      "value": "Copy NID"
+    },
+    {
+      "name": "detail_share_more_apps",
+      "value": "More Apps"
+    },
+    {
+      "name": "detail_rating_fmt",
+      "value": "Rating: %1$s / 5"
+    },
+    {
+      "name": "detail_rating_count_fmt",
+      "value": "(%d)"
+    },
+    {
+      "name": "detail_rating_tap",
+      "value": "Tap stars to rate"
+    },
+    {
+      "name": "detail_rating_5",
+      "value": "Excellent"
+    },
+    {
+      "name": "detail_year_fmt",
+      "value": "Year: %s"
+    },
+    {
+      "name": "detail_updated_fmt",
+      "value": "Updated: %s"
+    },
+    {
+      "name": "detail_favorites_fmt",
+      "value": "Favorites: %d"
+    },
+    {
+      "name": "detail_alias_fmt",
+      "value": "Alias: %s"
+    },
+    {
+      "name": "detail_tag_tags",
+      "value": "Tags"
+    },
+    {
+      "name": "detail_tag_characters",
+      "value": "Characters"
+    },
+    {
+      "name": "detail_tag_originals",
+      "value": "Parody"
+    },
+    {
+      "name": "detail_expand",
+      "value": "Show More"
+    },
+    {
+      "name": "detail_collapse",
+      "value": "Show Less"
+    },
+    {
+      "name": "detail_last_read_fmt",
+      "value": "Last read: %s"
+    },
+    {
+      "name": "detail_chapter_num_fmt",
+      "value": "Ep. %d"
+    },
+    {
+      "name": "detail_start_reading",
+      "value": "Start Reading"
+    },
+    {
+      "name": "detail_read_from_start",
+      "value": "Read from Start"
+    },
+    {
+      "name": "detail_continue_page_fmt",
+      "value": "Continue · P.%d"
+    },
+    {
+      "name": "detail_recommended",
+      "value": "Recommended"
+    },
+    {
+      "name": "detail_chapters_header_fmt",
+      "value": "Chapters (%1$d · %2$d groups)"
+    },
+    {
+      "name": "detail_download_all",
+      "value": "Download All"
+    },
+    {
+      "name": "detail_order_asc",
+      "value": "Asc"
+    },
+    {
+      "name": "detail_order_desc",
+      "value": "Desc"
+    },
+    {
+      "name": "detail_group_count_fmt",
+      "value": "%d ch"
+    },
+    {
+      "name": "detail_ch_reading",
+      "value": "Reading"
+    },
+    {
+      "name": "detail_ch_read",
+      "value": "Read"
+    },
+    {
+      "name": "detail_ch_offline",
+      "value": "Offline"
+    },
+    {
+      "name": "detail_comments_header_fmt",
+      "value": "Comments (%d)"
+    },
+    {
+      "name": "detail_comments_loading",
+      "value": "Loading comments..."
+    },
+    {
+      "name": "detail_comments_empty",
+      "value": "No comments yet"
+    },
+    {
+      "name": "detail_comments_retry_more",
+      "value": "Retry loading more"
+    },
+    {
+      "name": "detail_comments_load_more",
+      "value": "Load More Comments"
+    },
+    {
+      "name": "detail_comments_end",
+      "value": "End of comments"
+    },
+    {
+      "name": "detail_official_notice",
+      "value": "Official"
+    },
+    {
+      "name": "detail_user_num_fmt",
+      "value": "User #%d"
+    },
+    {
+      "name": "reader_local_unavailable",
+      "value": "Local chapter unavailable"
+    },
+    {
+      "name": "reader_load_failed",
+      "value": "Failed to load chapter"
+    },
+    {
+      "name": "reader_download_manage",
+      "value": "Downloads"
+    },
+    {
+      "name": "reader_loading_chapter",
+      "value": "Loading chapter..."
+    },
+    {
+      "name": "reader_no_pages",
+      "value": "No Pages"
+    },
+    {
+      "name": "reader_no_pages_msg",
+      "value": "No readable pages returned for this chapter"
+    },
+    {
+      "name": "reader_reading",
+      "value": "Reading"
+    },
+    {
+      "name": "reader_offline_chapter",
+      "value": "Offline"
+    },
+    {
+      "name": "reader_prev_chapter",
+      "value": "Prev"
+    },
+    {
+      "name": "reader_next_chapter",
+      "value": "Next"
+    },
+    {
+      "name": "reader_toc",
+      "value": "Chapters"
+    },
+    {
+      "name": "reader_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "reader_settings_title",
+      "value": "Reader Settings"
+    },
+    {
+      "name": "reader_mode_label",
+      "value": "Reading Mode"
+    },
+    {
+      "name": "reader_mode_webtoon",
+      "value": "Vertical Scroll"
+    },
+    {
+      "name": "reader_mode_ltr",
+      "value": "Left to Right"
+    },
+    {
+      "name": "reader_mode_rtl",
+      "value": "Right to Left"
+    },
+    {
+      "name": "reader_orientation_label",
+      "value": "Orientation"
+    },
+    {
+      "name": "reader_orientation_system",
+      "value": "System"
+    },
+    {
+      "name": "reader_orientation_portrait",
+      "value": "Portrait"
+    },
+    {
+      "name": "reader_orientation_landscape",
+      "value": "Landscape"
+    },
+    {
+      "name": "reader_system_brightness",
+      "value": "System Brightness"
+    },
+    {
+      "name": "reader_brightness",
+      "value": "Brightness"
+    },
+    {
+      "name": "reader_volume_paging",
+      "value": "Volume Key Paging"
+    },
+    {
+      "name": "reader_drawer_empty",
+      "value": "No chapters available"
+    },
+    {
+      "name": "reader_drawer_current",
+      "value": "Current"
+    },
+    {
+      "name": "history_title",
+      "value": "History"
+    },
+    {
+      "name": "history_empty",
+      "value": "No reading history"
+    },
+    {
+      "name": "history_clear_title",
+      "value": "Clear History"
+    },
+    {
+      "name": "history_clear_msg",
+      "value": "Clear all reading history?"
+    },
+    {
+      "name": "history_cleared",
+      "value": "History cleared"
+    },
+    {
+      "name": "history_clear_failed",
+      "value": "Failed to clear history"
+    },
+    {
+      "name": "cache_auto_cleaned_some",
+      "value": "Automatically cleared some old cache"
+    },
+    {
+      "name": "rating_confirm_title",
+      "value": "Enable Restricted Content"
+    },
+    {
+      "name": "rating_confirm_msg",
+      "value": "Please confirm you are at least 18 years old and wish to view adult and restricted works."
+    },
+    {
+      "name": "rating_confirm_btn",
+      "value": "Confirm 18+ & Enable"
+    },
+    {
+      "name": "rating_switch_failed",
+      "value": "Failed to switch content rating"
+    },
+    {
+      "name": "rating_toast_all_ages",
+      "value": "Switched to All Ages Only; Home refreshes on return"
+    },
+    {
+      "name": "rating_toast_adult",
+      "value": "Switched to Restricted Only; Home refreshes on return"
+    },
+    {
+      "name": "rating_toast_both",
+      "value": "All content enabled; Home refreshes on return"
+    },
+    {
+      "name": "settings_log_count_fmt",
+      "value": "%d logs"
+    },
+    {
+      "name": "settings_configure",
+      "value": "Configure"
+    },
+    {
+      "name": "settings_cache_clearing_short",
+      "value": "Clearing..."
+    },
+    {
+      "name": "settings_cache_calc_short",
+      "value": "Calculating..."
+    },
+    {
+      "name": "history_page_progress_fmt",
+      "value": "P.%1$d/%2$d"
+    },
+    {
+      "name": "history_page_single_fmt",
+      "value": "P.%d"
+    },
+    {
+      "name": "offline_empty_title",
+      "value": "No Downloaded Comics"
+    },
+    {
+      "name": "offline_empty_msg",
+      "value": "Completed downloads appear here for offline reading anytime"
+    },
+    {
+      "name": "offline_go_downloads",
+      "value": "Go to Downloads"
+    },
+    {
+      "name": "offline_local_source",
+      "value": "Local offline resource"
+    },
+    {
+      "name": "offline_total_chapters_fmt",
+      "value": "%d chapters"
+    },
+    {
+      "name": "offline_downloaded_summary_fmt",
+      "value": "%1$d chapters · %2$s"
+    },
+    {
+      "name": "offline_collapse",
+      "value": "Collapse"
+    },
+    {
+      "name": "offline_chapters",
+      "value": "Chapters"
+    },
+    {
+      "name": "offline_pages_fmt",
+      "value": "%d p"
+    },
+    {
+      "name": "offline_deleted_toast",
+      "value": "Deleted local files"
+    },
+    {
+      "name": "download_summary_fmt",
+      "value": "Active %1$d · Done %2$d"
+    },
+    {
+      "name": "download_pages_progress_fmt",
+      "value": "%1$d / %2$s pages · %3$d%%"
+    },
+    {
+      "name": "download_pages_failed_fmt",
+      "value": " · %d failed"
+    },
+    {
+      "name": "download_chapter_num_fmt",
+      "value": "Chapter #%s"
+    },
+    {
+      "name": "auth_err_invalid_credentials",
+      "value": "Incorrect username or password"
+    },
+    {
+      "name": "auth_err_empty",
+      "value": "Please enter username and password"
+    },
+    {
+      "name": "auth_err_forbidden",
+      "value": "Input contains disallowed characters"
+    },
+    {
+      "name": "auth_err_server",
+      "value": "Sign in did not take effect. Please try again."
+    },
+    {
+      "name": "auth_err_network",
+      "value": "Network error. Please try again later."
+    },
+    {
+      "name": "auth_err_cookie_missing",
+      "value": "Signed in, but session cookie was not established. Check network and retry."
+    },
+    {
+      "name": "auth_err_session_rejected",
+      "value": "Session verification failed (cookie created but rejected by server)."
+    },
+    {
+      "name": "auth_session_required",
+      "value": "Session expired or not signed in: NoyAcg requires an account session to load data"
+    },
+    {
+      "name": "checkin_streak_label",
+      "value": "Check-in\\nStreak"
+    },
+    {
+      "name": "checkin_days_unit",
+      "value": "days"
+    },
+    {
+      "name": "checkin_week_fmt",
+      "value": "This week: %1$d/%2$d days"
+    },
+    {
+      "name": "checkin_bonus_banner",
+      "value": "Earn bonus points every 7 check-in days!"
+    },
+    {
+      "name": "checkin_bonus_toast",
+      "value": "Earn bonus points for every 7 consecutive check-in days"
+    },
+    {
+      "name": "checkin_reminder_title",
+      "value": "Check-in Reminder"
+    },
+    {
+      "name": "checkin_reminder_desc",
+      "value": "Daily reminder to check in"
+    },
+    {
+      "name": "checkin_reminder_time",
+      "value": "Reminder Time"
+    },
+    {
+      "name": "checkin_reminder_on_fmt",
+      "value": "Daily check-in reminder enabled (%s)"
+    },
+    {
+      "name": "checkin_reminder_off",
+      "value": "Daily check-in reminder disabled"
+    },
+    {
+      "name": "checkin_reminder_updated_fmt",
+      "value": "Reminder time updated to %s"
+    },
+    {
+      "name": "checkin_btn_done",
+      "value": "Checked In"
+    },
+    {
+      "name": "checkin_btn_doing",
+      "value": "Checking in..."
+    },
+    {
+      "name": "checkin_btn_do",
+      "value": "Check In"
+    },
+    {
+      "name": "checkin_footer_hint",
+      "value": "Earn points or random bonus rewards"
+    },
+    {
+      "name": "checkin_success_streak_fmt",
+      "value": "Checked in! Streak: %d days"
+    },
+    {
+      "name": "checkin_success_today",
+      "value": "Checked in today"
+    },
+    {
+      "name": "checkin_session_expired",
+      "value": "Session expired, please sign in again"
+    },
+    {
+      "name": "checkin_failed_retry",
+      "value": "Check-in failed. Please try again."
+    },
+    {
+      "name": "log_export_cancelled",
+      "value": "Export cancelled"
+    },
+    {
+      "name": "net_export_success",
+      "value": "Network logs exported"
+    },
+    {
+      "name": "diag_export_success",
+      "value": "Error reports exported"
+    },
+    {
+      "name": "community_detail_all_comments_fmt",
+      "value": "All Comments (%d)"
+    },
+    {
+      "name": "update_checking",
+      "value": "Checking..."
+    },
+    {
+      "name": "update_new_version_title_fmt",
+      "value": "New Version v%s"
+    },
+    {
+      "name": "update_default_notes",
+      "value": "Includes improvements and bug fixes. Download the latest release from GitHub."
+    },
+    {
+      "name": "update_github_download",
+      "value": "Download on GitHub"
+    },
+    {
+      "name": "update_up_to_date_fmt",
+      "value": "Already on the latest version (v%s)"
+    },
+    {
+      "name": "update_check_failed",
+      "value": "Update check failed. Please try again later."
+    },
+    {
+      "name": "update_open_browser_failed",
+      "value": "No browser available. Please open GitHub Releases manually."
+    },
+    {
+      "name": "about_version_fmt",
+      "value": "Version %s"
+    },
+    {
+      "name": "about_repo_label",
+      "value": "Repository"
+    },
+    {
+      "name": "about_deps_title",
+      "value": "Third-Party Dependencies"
+    },
+    {
+      "name": "about_deps_body",
+      "value": "- HarmonyOS SDK (ArkTS / ArkUI / HDS Kit / Core File Kit / Localization Kit) — Huawei / OpenHarmony SDK License\n- @ohos/hypium & @ohos/hamock — Apache License 2.0 (used only for local unit tests)\n\nAside from the official toolkits above, this app includes no third-party closed-source commercial SDKs or external networking/UI wrapper libraries."
+    },
+    {
+      "name": "about_acks_title",
+      "value": "Open-Source Acknowledgments"
+    },
+    {
+      "name": "about_acks_body",
+      "value": "This app is implemented from scratch in native ArkTS without directly porting source code from external open-source projects. The repository itself is licensed under the GNU General Public License v3.0 (GPL-3.0), and all included dependencies retain their original license terms."
+    },
+    {
+      "name": "about_inspiration_title",
+      "value": "Design Inspiration"
+    },
+    {
+      "name": "about_inspiration_body",
+      "value": "Visual layout and interaction design take inspiration only from HarmonyOS Design guidelines and modern mobile reader card hierarchies, without using any source code from those references."
+    },
+    {
+      "name": "settings_view_logs",
+      "value": "View"
+    },
+    {
+      "name": "settings_check_update",
+      "value": "Check for Updates"
+    },
+    {
+      "name": "settings_current_version_fmt",
+      "value": "Current version v%s"
+    },
+    {
+      "name": "settings_check_update_btn",
+      "value": "Check"
+    },
+    {
+      "name": "settings_checking_update",
+      "value": "Checking..."
+    },
+    {
+      "name": "reader_double_tap_zoom",
+      "value": "Double-Tap to Zoom"
+    },
+    {
+      "name": "reader_double_tap_zoom_delay_hint",
+      "value": "Double-tap zoom enabled; opening the menu may have a slight delay"
+    },
+    {
+      "name": "reader_page_turn_animation",
+      "value": "Page-Turn Animation"
+    }
+  ]
+}

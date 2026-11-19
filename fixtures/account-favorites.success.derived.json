@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "Bid": 810001,
+      "Bookname": "账号收藏範例 A",
+      "Author": "作者 A",
+      "Ptag": "標籤一 標籤二",
+      "Favorites": 12,
+      "Status": 0,
+      "F": true
+    },
+    {
+      "Bid": 810002,
+      "Bookname": "账号收藏範例 B",
+      "Author": "作者 B"
+    }
+  ],
+  "count": 42
+}

@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.1",
+  "description": "NoyAcg 漫画阅读器入口模块",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21"
+  }
+}

@@ -1,0 +1,2312 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "NoyAcg 漫畫閱讀器入口模組"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "NoyAcg 漫畫閱讀器"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NoyAcg"
+    },
+    {
+      "name": "tab_home",
+      "value": "首頁"
+    },
+    {
+      "name": "tab_latest",
+      "value": "最新"
+    },
+    {
+      "name": "tab_community",
+      "value": "社區"
+    },
+    {
+      "name": "tab_shelf",
+      "value": "收藏"
+    },
+    {
+      "name": "tab_user",
+      "value": "使用者"
+    },
+    {
+      "name": "profile_guest",
+      "value": "訪客"
+    },
+    {
+      "name": "profile_login",
+      "value": "登入"
+    },
+    {
+      "name": "profile_logout",
+      "value": "登出"
+    },
+    {
+      "name": "profile_logout_doing",
+      "value": "登出中..."
+    },
+    {
+      "name": "profile_checking",
+      "value": "正在驗證登入狀態..."
+    },
+    {
+      "name": "profile_check_failed",
+      "value": "登入狀態驗證失敗"
+    },
+    {
+      "name": "profile_retry",
+      "value": "重試"
+    },
+    {
+      "name": "profile_login_hint",
+      "value": "登入後可同步收藏、訊息與閱讀進度"
+    },
+    {
+      "name": "profile_about",
+      "value": "關於"
+    },
+    {
+      "name": "profile_about_license",
+      "value": "授權與詳細資訊"
+    },
+    {
+      "name": "profile_data_source",
+      "value": "資料來源"
+    },
+    {
+      "name": "profile_app_version",
+      "value": "應用程式版本"
+    },
+    {
+      "name": "profile_env",
+      "value": "執行環境"
+    },
+    {
+      "name": "profile_env_value",
+      "value": "HarmonyOS %s · API 26"
+    },
+    {
+      "name": "profile_uid",
+      "value": "UID: %s"
+    },
+    {
+      "name": "profile_settings_accessibility",
+      "value": "設定：應用程式偏好、儲存空間管理與進階選項"
+    },
+    {
+      "name": "menu_message",
+      "value": "訊息中心"
+    },
+    {
+      "name": "menu_message_desc",
+      "value": "留言回覆／社群回覆／系統訊息"
+    },
+    {
+      "name": "menu_shelf",
+      "value": "我的收藏"
+    },
+    {
+      "name": "menu_shelf_desc",
+      "value": "帳號收藏與本地書架管理"
+    },
+    {
+      "name": "menu_history",
+      "value": "閱讀記錄"
+    },
+    {
+      "name": "menu_history_desc",
+      "value": "從上次的進度繼續閱讀"
+    },
+    {
+      "name": "menu_download",
+      "value": "下載管理"
+    },
+    {
+      "name": "menu_download_desc",
+      "value": "離線章節、下載任務與檔案清理"
+    },
+    {
+      "name": "menu_offline_books",
+      "value": "離線閱讀"
+    },
+    {
+      "name": "menu_offline_books_desc",
+      "value": "檢視並離線閱讀已下載的漫畫"
+    },
+    {
+      "name": "menu_settings",
+      "value": "設定"
+    },
+    {
+      "name": "settings_title",
+      "value": "設定"
+    },
+    {
+      "name": "group_prefs",
+      "value": "內容與偏好"
+    },
+    {
+      "name": "group_storage",
+      "value": "儲存空間管理"
+    },
+    {
+      "name": "group_appearance",
+      "value": "顯示與外觀"
+    },
+    {
+      "name": "group_privacy",
+      "value": "帳戶與隱私"
+    },
+    {
+      "name": "group_advanced",
+      "value": "進階"
+    },
+    {
+      "name": "unavailable",
+      "value": "尚未支援"
+    },
+    {
+      "name": "settings_rating_title",
+      "value": "內容類型"
+    },
+    {
+      "name": "settings_rating_desc",
+      "value": "選擇瀏覽全年齡或限制級作品"
+    },
+    {
+      "name": "rating_all_ages",
+      "value": "僅全年齡內容"
+    },
+    {
+      "name": "rating_adult",
+      "value": "僅限分級內容"
+    },
+    {
+      "name": "rating_all",
+      "value": "顯示全部內容"
+    },
+    {
+      "name": "settings_rating_hint",
+      "value": "修改後立即生效，同步至所有請求；閱讀方向請在閱讀器內調整"
+    },
+    {
+      "name": "settings_language",
+      "value": "應用程式語言"
+    },
+    {
+      "name": "lang_system",
+      "value": "系統預設"
+    },
+    {
+      "name": "lang_zh_cn",
+      "value": "簡體中文"
+    },
+    {
+      "name": "lang_zh_tw",
+      "value": "繁體中文"
+    },
+    {
+      "name": "settings_language_hint",
+      "value": "切換介面顯示語言（重啟應用程式後生效）"
+    },
+    {
+      "name": "toast_lang_saved",
+      "value": "語言設定已儲存，應用程式將於下次重新啟動後使用新語言。"
+    },
+    {
+      "name": "toast_lang_system",
+      "value": "已設定為跟隨系統語言，下次重新啟動應用程式後生效。"
+    },
+    {
+      "name": "toast_lang_failed",
+      "value": "語言設定失敗，已保留原設定"
+    },
+    {
+      "name": "settings_server",
+      "value": "切換伺服器分流"
+    },
+    {
+      "name": "settings_server_reason",
+      "value": "目前僅有單一官方入口（noymanga.com），沒有經過驗證的備用節點"
+    },
+    {
+      "name": "settings_block_tags",
+      "value": "封鎖標籤"
+    },
+    {
+      "name": "settings_block_tags_desc",
+      "value": "自動隱藏包含指定標籤的作品"
+    },
+    {
+      "name": "storage_cache",
+      "value": "圖片快取"
+    },
+    {
+      "name": "storage_cache_desc",
+      "value": "線上看圖產生的暫存快取，清理不影響離線漫畫"
+    },
+    {
+      "name": "storage_cache_clear",
+      "value": "清理圖片快取"
+    },
+    {
+      "name": "storage_cache_clearing",
+      "value": "清理中..."
+    },
+    {
+      "name": "storage_offline",
+      "value": "離線資料"
+    },
+    {
+      "name": "storage_offline_desc",
+      "value": "檢視與管理已下載的離線漫畫章節"
+    },
+    {
+      "name": "storage_offline_manage",
+      "value": "前往下載管理 →"
+    },
+    {
+      "name": "storage_calc",
+      "value": "統計中..."
+    },
+    {
+      "name": "storage_failed",
+      "value": "統計失敗"
+    },
+    {
+      "name": "settings_time_format",
+      "value": "時間格式"
+    },
+    {
+      "name": "time_abs",
+      "value": "絕對時間"
+    },
+    {
+      "name": "time_rel",
+      "value": "相對時間"
+    },
+    {
+      "name": "toast_time_format_partial",
+      "value": "時間格式已切換，但可能未儲存到本機"
+    },
+    {
+      "name": "settings_theme",
+      "value": "主題設定"
+    },
+    {
+      "name": "theme_system",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "theme_light",
+      "value": "淺色模式"
+    },
+    {
+      "name": "theme_dark",
+      "value": "深色模式"
+    },
+    {
+      "name": "settings_theme_hint",
+      "value": "切換淺色、深色或跟隨系統外觀"
+    },
+    {
+      "name": "toast_theme_saved",
+      "value": "主題已切換"
+    },
+    {
+      "name": "toast_theme_failed",
+      "value": "主題切換失敗，已還原原設定"
+    },
+    {
+      "name": "settings_privacy",
+      "value": "隱私設定"
+    },
+    {
+      "name": "settings_privacy_reason",
+      "value": "伺服器未提供資料／留言可見性設定介面（API 未驗證）"
+    },
+    {
+      "name": "adv_report",
+      "value": "應用異常記錄"
+    },
+    {
+      "name": "adv_report_desc",
+      "value": "檢視影響正常使用的程式異常記錄"
+    },
+    {
+      "name": "adv_log",
+      "value": "網路日誌"
+    },
+    {
+      "name": "adv_log_desc",
+      "value": "檢視介面請求狀態與耗時，輔助排查網路問題"
+    },
+    {
+      "name": "adv_cache",
+      "value": "進階快取設定"
+    },
+    {
+      "name": "adv_cache_desc",
+      "value": "設定圖片快取上限與自動清理規則"
+    },
+    {
+      "name": "dialog_logout_title",
+      "value": "登出"
+    },
+    {
+      "name": "dialog_logout_body",
+      "value": "將撤銷伺服器工作階段並清除本機登入狀態。本機收藏、下載、閱讀記錄與設定不受影響。"
+    },
+    {
+      "name": "dialog_logout_confirm",
+      "value": "登出"
+    },
+    {
+      "name": "dialog_clear_cache_title",
+      "value": "清理圖片快取"
+    },
+    {
+      "name": "dialog_clear_cache_body",
+      "value": "將刪除約 %s 的圖片快取，書籍收藏、閱讀進度與離線章節不受影響。"
+    },
+    {
+      "name": "dialog_clear_confirm",
+      "value": "清理"
+    },
+    {
+      "name": "common_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "common_back",
+      "value": "返回"
+    },
+    {
+      "name": "common_retry",
+      "value": "重試"
+    },
+    {
+      "name": "common_confirm",
+      "value": "確定"
+    },
+    {
+      "name": "toast_logout_done",
+      "value": "已登出"
+    },
+    {
+      "name": "toast_logout_failed",
+      "value": "登出失敗，請重試"
+    },
+    {
+      "name": "toast_cache_freed",
+      "value": "已清理 %s"
+    },
+    {
+      "name": "toast_cache_partial",
+      "value": "已清理 %s，%d 個檔案未能刪除"
+    },
+    {
+      "name": "toast_cache_empty",
+      "value": "快取已經是空的"
+    },
+    {
+      "name": "toast_cache_failed",
+      "value": "清理失敗，請稍後重試"
+    },
+    {
+      "name": "time_just_now",
+      "value": "剛剛"
+    },
+    {
+      "name": "time_minutes_ago",
+      "value": "%d 分鐘前"
+    },
+    {
+      "name": "time_hours_ago",
+      "value": "%d 小時前"
+    },
+    {
+      "name": "time_days_ago",
+      "value": "%d 天前"
+    },
+    {
+      "name": "about_desc",
+      "value": "NoyACG 第三方鴻蒙閱讀用戶端"
+    },
+    {
+      "name": "about_uid",
+      "value": "目前 UID"
+    },
+    {
+      "name": "about_license",
+      "value": "開源授權"
+    },
+    {
+      "name": "about_license_body",
+      "value": "本專案使用的第三方元件（HarmonyOS SDK、hypium 等）遵循其各自的開源授權；專案本身的授權資訊以程式碼倉庫附帶的授權文件為準。"
+    },
+    {
+      "name": "discovery_rank",
+      "value": "排行榜"
+    },
+    {
+      "name": "discovery_category",
+      "value": "分類"
+    },
+    {
+      "name": "discovery_search",
+      "value": "搜尋"
+    },
+    {
+      "name": "discovery_personalized",
+      "value": "精選"
+    },
+    {
+      "name": "pagination_total",
+      "value": "總量：%d"
+    },
+    {
+      "name": "pagination_pages",
+      "value": "頁數：%d"
+    },
+    {
+      "name": "pagination_loaded",
+      "value": "已取得：%d 筆"
+    },
+    {
+      "name": "pagination_local_pages",
+      "value": "本機頁數：%d"
+    },
+    {
+      "name": "pagination_unknown",
+      "value": "總量未知"
+    },
+    {
+      "name": "pagination_jump",
+      "value": "轉到"
+    },
+    {
+      "name": "pagination_prev",
+      "value": "上一頁"
+    },
+    {
+      "name": "pagination_next",
+      "value": "下一頁"
+    },
+    {
+      "name": "pagination_jump_title",
+      "value": "跳轉到指定頁"
+    },
+    {
+      "name": "pagination_jump_placeholder",
+      "value": "輸入頁碼"
+    },
+    {
+      "name": "pagination_jump_confirm",
+      "value": "跳轉"
+    },
+    {
+      "name": "pagination_jump_invalid",
+      "value": "請輸入正整數頁碼"
+    },
+    {
+      "name": "pagination_jump_range",
+      "value": "頁碼需在 1 - %d 之間"
+    },
+    {
+      "name": "rank_title",
+      "value": "排行榜"
+    },
+    {
+      "name": "rank_reading",
+      "value": "閱讀榜"
+    },
+    {
+      "name": "rank_favorite",
+      "value": "收藏榜"
+    },
+    {
+      "name": "rank_high_quality",
+      "value": "高品質榜"
+    },
+    {
+      "name": "rank_day",
+      "value": "日榜"
+    },
+    {
+      "name": "rank_week",
+      "value": "週榜"
+    },
+    {
+      "name": "rank_month",
+      "value": "月榜"
+    },
+    {
+      "name": "rank_source_note",
+      "value": "資料來自官方榜單介面，依伺服器回傳順序展示"
+    },
+    {
+      "name": "rank_empty",
+      "value": "暫無榜單資料"
+    },
+    {
+      "name": "rank_empty_desc",
+      "value": "伺服器目前未回傳該榜單內容"
+    },
+    {
+      "name": "category_title",
+      "value": "分類"
+    },
+    {
+      "name": "category_empty",
+      "value": "暫無分類"
+    },
+    {
+      "name": "category_empty_desc",
+      "value": "分類目錄未能載入"
+    },
+    {
+      "name": "category_empty_hint",
+      "value": "伺服器暫未回傳分類"
+    },
+    {
+      "name": "category_placeholder",
+      "value": "佔位圖"
+    },
+    {
+      "name": "category_fantasy",
+      "value": "奇幻"
+    },
+    {
+      "name": "category_romance",
+      "value": "戀愛"
+    },
+    {
+      "name": "category_daily",
+      "value": "日常"
+    },
+    {
+      "name": "category_comedy",
+      "value": "搞笑"
+    },
+    {
+      "name": "category_hotblood",
+      "value": "熱血"
+    },
+    {
+      "name": "category_action",
+      "value": "動作"
+    },
+    {
+      "name": "category_mystery",
+      "value": "懸疑"
+    },
+    {
+      "name": "category_healing",
+      "value": "治癒"
+    },
+    {
+      "name": "category_school",
+      "value": "校園"
+    },
+    {
+      "name": "category_music",
+      "value": "音樂"
+    },
+    {
+      "name": "category_four_panel",
+      "value": "四格"
+    },
+    {
+      "name": "category_yuri",
+      "value": "百合"
+    },
+    {
+      "name": "category_tag_fantasy",
+      "value": "奇幻"
+    },
+    {
+      "name": "category_tag_romance",
+      "value": "戀愛"
+    },
+    {
+      "name": "category_tag_daily",
+      "value": "日常"
+    },
+    {
+      "name": "category_tag_comedy",
+      "value": "搞笑"
+    },
+    {
+      "name": "category_tag_hotblood",
+      "value": "熱血"
+    },
+    {
+      "name": "category_tag_action",
+      "value": "動作"
+    },
+    {
+      "name": "category_tag_mystery",
+      "value": "懸疑"
+    },
+    {
+      "name": "category_tag_healing",
+      "value": "治癒"
+    },
+    {
+      "name": "category_tag_school",
+      "value": "校園"
+    },
+    {
+      "name": "category_tag_music",
+      "value": "音樂"
+    },
+    {
+      "name": "category_tag_four_panel",
+      "value": "四格"
+    },
+    {
+      "name": "category_tag_yuri",
+      "value": "百合"
+    },
+    {
+      "name": "personalized_title",
+      "value": "個性推薦"
+    },
+    {
+      "name": "recommend_empty_title",
+      "value": "暫無推薦"
+    },
+    {
+      "name": "recommend_empty_desc",
+      "value": "多收藏一些作品後再來看看吧"
+    },
+    {
+      "name": "home_section_read_rank",
+      "value": "今日閱讀榜"
+    },
+    {
+      "name": "home_section_fav_rank",
+      "value": "今日收藏榜"
+    },
+    {
+      "name": "home_section_recommend",
+      "value": "收藏推薦"
+    },
+    {
+      "name": "home_section_quality",
+      "value": "高質榜"
+    },
+    {
+      "name": "blocked_scope_local",
+      "value": "作用範圍：本機（未登入）"
+    },
+    {
+      "name": "blocked_scope_account",
+      "value": "作用範圍：本機 · 目前帳號"
+    },
+    {
+      "name": "blocked_scope_note",
+      "value": "封鎖規則只儲存在本機，不會同步到其他裝置；切換帳號後自動切換到該帳號的設定。"
+    },
+    {
+      "name": "blocked_empty",
+      "value": "暫無封鎖標籤"
+    },
+    {
+      "name": "blocked_empty_desc",
+      "value": "加入標籤後，含該標籤的內容會從首頁、榜單、搜尋與推薦中隱藏。"
+    },
+    {
+      "name": "blocked_add_placeholder",
+      "value": "輸入完整標籤名稱"
+    },
+    {
+      "name": "blocked_add",
+      "value": "新增標籤"
+    },
+    {
+      "name": "blocked_remove",
+      "value": "移除"
+    },
+    {
+      "name": "blocked_clear",
+      "value": "清空封鎖標籤"
+    },
+    {
+      "name": "blocked_clear_confirm",
+      "value": "將移除全部封鎖標籤，被過濾的內容會重新出現在列表中。"
+    },
+    {
+      "name": "blocked_invalid",
+      "value": "請輸入完整標籤名稱（不超過 40 個字元）"
+    },
+    {
+      "name": "blocked_limit",
+      "value": "最多只能封鎖 %d 個標籤"
+    },
+    {
+      "name": "blocked_save_failed",
+      "value": "已生效，但未能儲存到本機"
+    },
+    {
+      "name": "cache_usage_title",
+      "value": "目前佔用"
+    },
+    {
+      "name": "cache_limit_title",
+      "value": "容量上限"
+    },
+    {
+      "name": "cache_limit_desc",
+      "value": "圖片快取超過上限時，將自動清理最早瀏覽的暫存圖片"
+    },
+    {
+      "name": "cache_limit_mb500",
+      "value": "500 MB"
+    },
+    {
+      "name": "cache_limit_gb1",
+      "value": "1 GB"
+    },
+    {
+      "name": "cache_limit_unlimited",
+      "value": "無限制"
+    },
+    {
+      "name": "cache_lru_note",
+      "value": "自動清理僅針對線上瀏覽產生的圖片快取，不會刪除已下載的離線漫畫"
+    },
+    {
+      "name": "cache_offline_isolated",
+      "value": "當快取達到設定上限時，系統會優先釋放較早的快取空間"
+    },
+    {
+      "name": "cache_clean_now",
+      "value": "重新計算"
+    },
+    {
+      "name": "cache_clean_never",
+      "value": "目前快取未達上限，暫無需自動清理"
+    },
+    {
+      "name": "cache_clean_result",
+      "value": "已清理 %d 個檔案，釋放 %s"
+    },
+    {
+      "name": "cache_over_limit",
+      "value": "目前佔用已超出上限，將於下次檢查時自動清理"
+    },
+    {
+      "name": "cache_limit_save_failed",
+      "value": "容量上限未能儲存到本機"
+    },
+    {
+      "name": "dialog_clear_cache_body_short",
+      "value": "只刪除圖片快取，離線章節、收藏與閱讀進度不受影響。"
+    },
+    {
+      "name": "diag_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "diag_filter_error",
+      "value": "錯誤"
+    },
+    {
+      "name": "diag_filter_warn",
+      "value": "警告"
+    },
+    {
+      "name": "diag_capability_note",
+      "value": "僅記錄影響正常使用的程式異常，方便排查問題"
+    },
+    {
+      "name": "diag_export",
+      "value": "匯出日誌"
+    },
+    {
+      "name": "diag_export_ok",
+      "value": "已匯出到 %s"
+    },
+    {
+      "name": "diag_export_failed",
+      "value": "匯出失敗，請稍後重試"
+    },
+    {
+      "name": "diag_clear",
+      "value": "清空日誌"
+    },
+    {
+      "name": "diag_clear_confirm",
+      "value": "清空後無法復原，確定繼續？"
+    },
+    {
+      "name": "diag_empty",
+      "value": "運行正常，暫無異常記錄"
+    },
+    {
+      "name": "diag_empty_desc",
+      "value": "運行正常，暫無異常記錄"
+    },
+    {
+      "name": "net_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "net_filter_error",
+      "value": "失敗"
+    },
+    {
+      "name": "net_filter_ok",
+      "value": "成功"
+    },
+    {
+      "name": "net_search_hint",
+      "value": "依介面路徑搜尋"
+    },
+    {
+      "name": "net_privacy_note",
+      "value": "僅記錄介面存取狀態與耗時，用於排查載入失敗問題，不包含帳號密碼及隱私資訊"
+    },
+    {
+      "name": "net_export",
+      "value": "匯出日誌"
+    },
+    {
+      "name": "net_export_ok",
+      "value": "已匯出到 %s"
+    },
+    {
+      "name": "net_export_failed",
+      "value": "匯出失敗，請稍後重試"
+    },
+    {
+      "name": "net_clear",
+      "value": "清空日誌"
+    },
+    {
+      "name": "net_clear_confirm",
+      "value": "清空後無法復原，確定繼續？"
+    },
+    {
+      "name": "net_empty",
+      "value": "暫無請求記錄"
+    },
+    {
+      "name": "net_empty_desc",
+      "value": "開啟首頁或重新整理列表後會自動出現。"
+    },
+    {
+      "name": "badge_status_completed",
+      "value": "已完結"
+    },
+    {
+      "name": "badge_status_ongoing",
+      "value": "連載中"
+    },
+    {
+      "name": "badge_kw_kinky",
+      "value": "重口"
+    },
+    {
+      "name": "badge_kw_ntr",
+      "value": "NTR"
+    },
+    {
+      "name": "badge_kw_uncle",
+      "value": "大叔"
+    },
+    {
+      "name": "state_empty_default",
+      "value": "暫無內容"
+    },
+    {
+      "name": "state_error_default",
+      "value": "載入失敗"
+    },
+    {
+      "name": "settings_manage_tags",
+      "value": "管理標籤"
+    },
+    {
+      "name": "settings_time_format_desc",
+      "value": "選擇列表與評論的時間顯示方式"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "主題模式"
+    },
+    {
+      "name": "settings_theme_accent",
+      "value": "主題顏色"
+    },
+    {
+      "name": "settings_theme_accent_desc",
+      "value": "選擇全應用介面強調色"
+    },
+    {
+      "name": "group_navbar",
+      "value": "導覽列"
+    },
+    {
+      "name": "settings_navbar_entries",
+      "value": "導覽列入口"
+    },
+    {
+      "name": "settings_navbar_entries_desc",
+      "value": "主頁與用戶固定保留，其餘入口可按需顯示"
+    },
+    {
+      "name": "nav_latest",
+      "value": "最新"
+    },
+    {
+      "name": "nav_community",
+      "value": "社區"
+    },
+    {
+      "name": "nav_shelf",
+      "value": "收藏"
+    },
+    {
+      "name": "settings_navbar_shelf_hint",
+      "value": "隱藏「收藏」後仍可在「用戶 - 我的收藏」中存取"
+    },
+    {
+      "name": "shelf_title",
+      "value": "收藏"
+    },
+    {
+      "name": "shelf_count_account",
+      "value": "帳號 %d 部"
+    },
+    {
+      "name": "shelf_count_local",
+      "value": "本地 %d 部"
+    },
+    {
+      "name": "shelf_seg_account",
+      "value": "帳號收藏"
+    },
+    {
+      "name": "shelf_seg_local",
+      "value": "本地收藏"
+    },
+    {
+      "name": "shelf_account_empty_title",
+      "value": "帳號暫無收藏"
+    },
+    {
+      "name": "shelf_account_empty_msg",
+      "value": "在 NoyAcg 網站收藏的漫畫會顯示在這裡"
+    },
+    {
+      "name": "shelf_account_login_prompt",
+      "value": "登入後可查看帳號收藏"
+    },
+    {
+      "name": "shelf_local_empty_title",
+      "value": "本地暫無收藏"
+    },
+    {
+      "name": "shelf_local_empty_msg",
+      "value": "在詳情頁點亮星標，即可加入本地收藏"
+    },
+    {
+      "name": "common_go_login",
+      "value": "去登入"
+    },
+    {
+      "name": "common_search",
+      "value": "搜尋"
+    },
+    {
+      "name": "common_clear",
+      "value": "清空"
+    },
+    {
+      "name": "common_delete",
+      "value": "刪除"
+    },
+    {
+      "name": "common_reset",
+      "value": "重設"
+    },
+    {
+      "name": "common_refresh",
+      "value": "重新整理"
+    },
+    {
+      "name": "common_edit",
+      "value": "編輯"
+    },
+    {
+      "name": "common_reply",
+      "value": "回覆"
+    },
+    {
+      "name": "common_send",
+      "value": "發送"
+    },
+    {
+      "name": "common_sending",
+      "value": "發送中"
+    },
+    {
+      "name": "common_loading_more",
+      "value": "正在載入更多..."
+    },
+    {
+      "name": "common_no_more",
+      "value": "已經到底了"
+    },
+    {
+      "name": "latest_title",
+      "value": "最新"
+    },
+    {
+      "name": "latest_sort_new",
+      "value": "最新"
+    },
+    {
+      "name": "latest_sort_views",
+      "value": "最多瀏覽"
+    },
+    {
+      "name": "latest_sort_favorites",
+      "value": "最多收藏"
+    },
+    {
+      "name": "latest_sort_rating",
+      "value": "最高評分"
+    },
+    {
+      "name": "latest_filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "latest_filter_ongoing",
+      "value": "連載中"
+    },
+    {
+      "name": "latest_filter_completed",
+      "value": "已完結"
+    },
+    {
+      "name": "community_title",
+      "value": "社區"
+    },
+    {
+      "name": "community_loading",
+      "value": "正在載入社區貼文..."
+    },
+    {
+      "name": "community_load_failed",
+      "value": "載入社區貼文失敗"
+    },
+    {
+      "name": "community_load_more_failed",
+      "value": "載入更多失敗，點擊重試"
+    },
+    {
+      "name": "community_empty_search",
+      "value": "沒有找到相關貼文"
+    },
+    {
+      "name": "community_empty",
+      "value": "暫無社區貼文"
+    },
+    {
+      "name": "community_new_post",
+      "value": "發帖"
+    },
+    {
+      "name": "community_search_hint",
+      "value": "搜尋社區貼文關鍵詞..."
+    },
+    {
+      "name": "community_pinned",
+      "value": "置頂"
+    },
+    {
+      "name": "community_spoiler_hint",
+      "value": "劇透/敏感圖 · 點擊查看"
+    },
+    {
+      "name": "community_create_title",
+      "value": "發佈新帖"
+    },
+    {
+      "name": "community_create_title_ph",
+      "value": "輸入貼文標題（必填）"
+    },
+    {
+      "name": "community_create_content_ph",
+      "value": "分享你的想法、推漫或討論..."
+    },
+    {
+      "name": "community_uploading",
+      "value": "上傳中"
+    },
+    {
+      "name": "community_upload_failed",
+      "value": "失敗"
+    },
+    {
+      "name": "community_tap_retry",
+      "value": "點擊重試"
+    },
+    {
+      "name": "community_emoji",
+      "value": "表情"
+    },
+    {
+      "name": "community_image",
+      "value": "圖片"
+    },
+    {
+      "name": "community_publish",
+      "value": "發佈"
+    },
+    {
+      "name": "community_publishing",
+      "value": "發佈中..."
+    },
+    {
+      "name": "community_err_ctx",
+      "value": "無法取得應用上下文"
+    },
+    {
+      "name": "community_err_pick_img",
+      "value": "選擇圖片失敗"
+    },
+    {
+      "name": "community_err_upload",
+      "value": "上傳失敗"
+    },
+    {
+      "name": "community_err_wait_upload",
+      "value": "請等待圖片上傳完成或移除失敗圖片"
+    },
+    {
+      "name": "community_err_publish",
+      "value": "發佈失敗，請稍後重試"
+    },
+    {
+      "name": "community_edit_title",
+      "value": "編輯貼文"
+    },
+    {
+      "name": "community_edit_note",
+      "value": "註：伺服器僅支援修改標題與內文，不支援修改已發佈圖片"
+    },
+    {
+      "name": "community_edit_title_ph",
+      "value": "輸入貼文標題"
+    },
+    {
+      "name": "community_edit_content_ph",
+      "value": "輸入貼文內文"
+    },
+    {
+      "name": "community_save_changes",
+      "value": "儲存修改"
+    },
+    {
+      "name": "community_saving",
+      "value": "儲存中..."
+    },
+    {
+      "name": "community_err_save",
+      "value": "儲存失敗，請稍後重試"
+    },
+    {
+      "name": "community_detail_title",
+      "value": "貼文詳情"
+    },
+    {
+      "name": "community_detail_loading",
+      "value": "正在載入貼文詳情..."
+    },
+    {
+      "name": "community_detail_invalid_id",
+      "value": "無效的貼文 ID"
+    },
+    {
+      "name": "community_detail_load_failed",
+      "value": "載入貼文詳情失敗"
+    },
+    {
+      "name": "community_detail_no_comments",
+      "value": "暫無評論，快來搶沙發"
+    },
+    {
+      "name": "community_detail_loading_comments",
+      "value": "正在載入更多評論..."
+    },
+    {
+      "name": "community_detail_all_comments",
+      "value": "已顯示全部評論"
+    },
+    {
+      "name": "community_detail_view_replies_count",
+      "value": "查看全部 %d 條回覆 >"
+    },
+    {
+      "name": "community_detail_view_replies",
+      "value": "查看全部回覆 >"
+    },
+    {
+      "name": "community_detail_reply_to",
+      "value": "回覆 @%s..."
+    },
+    {
+      "name": "community_detail_comment_ph",
+      "value": "寫下你的評論..."
+    },
+    {
+      "name": "community_detail_sub_title",
+      "value": "樓中樓回覆"
+    },
+    {
+      "name": "community_detail_reply_comment",
+      "value": "回覆該評論"
+    },
+    {
+      "name": "community_detail_loading_replies",
+      "value": "正在載入回覆..."
+    },
+    {
+      "name": "community_detail_all_replies",
+      "value": "已顯示全部回覆"
+    },
+    {
+      "name": "community_detail_sub_failed",
+      "value": "載入樓中樓失敗"
+    },
+    {
+      "name": "community_detail_reply_failed",
+      "value": "發送回覆失敗"
+    },
+    {
+      "name": "download_title",
+      "value": "下載管理"
+    },
+    {
+      "name": "download_offline_usage",
+      "value": "離線下載佔用"
+    },
+    {
+      "name": "download_resume_all",
+      "value": "全部繼續"
+    },
+    {
+      "name": "download_pause_all",
+      "value": "全部暫停"
+    },
+    {
+      "name": "download_cancel_all",
+      "value": "取消全部"
+    },
+    {
+      "name": "download_clear_offline",
+      "value": "清空離線"
+    },
+    {
+      "name": "download_empty_title",
+      "value": "暫無下載任務"
+    },
+    {
+      "name": "download_empty_desc",
+      "value": "在漫畫詳情頁選擇章節加入下載佇列後，可在此查看進度並離線閱讀。"
+    },
+    {
+      "name": "download_offline_badge",
+      "value": "離線"
+    },
+    {
+      "name": "download_detail",
+      "value": "詳情"
+    },
+    {
+      "name": "download_pause",
+      "value": "暫停"
+    },
+    {
+      "name": "download_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "download_resume",
+      "value": "繼續"
+    },
+    {
+      "name": "download_repair",
+      "value": "修復"
+    },
+    {
+      "name": "download_read_offline",
+      "value": "離線閱讀"
+    },
+    {
+      "name": "download_clear_all_title",
+      "value": "清空全部離線檔案"
+    },
+    {
+      "name": "download_clear_all_confirm",
+      "value": "確認清空"
+    },
+    {
+      "name": "download_delete_task_title",
+      "value": "刪除下載任務"
+    },
+    {
+      "name": "download_delete_task_msg",
+      "value": "「刪除檔案」會同時清除該章節的永久下載圖片，此操作不可復原。"
+    },
+    {
+      "name": "download_delete_record_only",
+      "value": "僅刪記錄"
+    },
+    {
+      "name": "download_delete_files",
+      "value": "刪除檔案"
+    },
+    {
+      "name": "download_status_queued",
+      "value": "等待中"
+    },
+    {
+      "name": "download_status_preparing",
+      "value": "準備中"
+    },
+    {
+      "name": "download_status_downloading",
+      "value": "下載中"
+    },
+    {
+      "name": "download_status_paused",
+      "value": "已暫停"
+    },
+    {
+      "name": "download_status_completed",
+      "value": "已完成"
+    },
+    {
+      "name": "download_status_failed",
+      "value": "失敗"
+    },
+    {
+      "name": "download_status_canceled",
+      "value": "已取消"
+    },
+    {
+      "name": "download_status_incomplete",
+      "value": "不完整"
+    },
+    {
+      "name": "offline_title",
+      "value": "離線閱讀"
+    },
+    {
+      "name": "offline_delete_title",
+      "value": "刪除本地資源"
+    },
+    {
+      "name": "offline_delete_all_title",
+      "value": "刪除全部離線資源"
+    },
+    {
+      "name": "message_title",
+      "value": "訊息"
+    },
+    {
+      "name": "message_kind_comment",
+      "value": "評論回覆"
+    },
+    {
+      "name": "message_kind_community",
+      "value": "社區回覆"
+    },
+    {
+      "name": "message_kind_system",
+      "value": "系統訊息"
+    },
+    {
+      "name": "message_login_required",
+      "value": "登入後才能查看訊息"
+    },
+    {
+      "name": "message_login_prompt_title",
+      "value": "請先登入"
+    },
+    {
+      "name": "message_login_prompt_desc",
+      "value": "登入後可查看評論與社區回覆"
+    },
+    {
+      "name": "message_empty",
+      "value": "暫無訊息"
+    },
+    {
+      "name": "message_load_more",
+      "value": "載入更多"
+    },
+    {
+      "name": "message_loading",
+      "value": "載入中..."
+    },
+    {
+      "name": "message_no_content",
+      "value": "（無內容）"
+    },
+    {
+      "name": "profile_title",
+      "value": "用戶中心"
+    },
+    {
+      "name": "profile_checkin_done",
+      "value": "今日已簽"
+    },
+    {
+      "name": "profile_checkin_do",
+      "value": "每日簽到"
+    },
+    {
+      "name": "search_title",
+      "value": "搜尋"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "搜尋漫畫標題 / 作者 / 標籤"
+    },
+    {
+      "name": "search_history",
+      "value": "搜尋歷史"
+    },
+    {
+      "name": "search_history_empty",
+      "value": "暫無搜尋記錄，試試下方熱門標籤或輸入關鍵詞"
+    },
+    {
+      "name": "search_hot",
+      "value": "熱門搜尋"
+    },
+    {
+      "name": "search_reset_filter",
+      "value": "重設篩選"
+    },
+    {
+      "name": "search_clear_title",
+      "value": "清空搜尋歷史"
+    },
+    {
+      "name": "search_clear_msg",
+      "value": "確定清空全部歷史搜尋記錄嗎？"
+    },
+    {
+      "name": "search_failed",
+      "value": "搜尋失敗"
+    },
+    {
+      "name": "search_empty",
+      "value": "沒有找到相關漫畫"
+    },
+    {
+      "name": "search_need_login",
+      "value": "需要登入 NoyAcg"
+    },
+    {
+      "name": "search_sort_default",
+      "value": "預設排序"
+    },
+    {
+      "name": "search_type_all",
+      "value": "全部類型"
+    },
+    {
+      "name": "search_type_comic",
+      "value": "漫畫"
+    },
+    {
+      "name": "search_type_anime",
+      "value": "動畫"
+    },
+    {
+      "name": "search_progress_all",
+      "value": "全部進度"
+    },
+    {
+      "name": "search_load_more",
+      "value": "載入更多..."
+    },
+    {
+      "name": "search_load_more_failed",
+      "value": "載入更多失敗"
+    },
+    {
+      "name": "search_end",
+      "value": "— 已經到底了 —"
+    },
+    {
+      "name": "login_title",
+      "value": "登入"
+    },
+    {
+      "name": "login_subtitle",
+      "value": "登入帳號以同步收藏、歷史與社區互動"
+    },
+    {
+      "name": "login_username_ph",
+      "value": "帳號 / 使用者名稱"
+    },
+    {
+      "name": "login_password_ph",
+      "value": "密碼"
+    },
+    {
+      "name": "login_submitting",
+      "value": "登入中..."
+    },
+    {
+      "name": "login_submit",
+      "value": "登入"
+    },
+    {
+      "name": "login_success",
+      "value": "登入成功"
+    },
+    {
+      "name": "login_no_account",
+      "value": "還沒有帳號？"
+    },
+    {
+      "name": "login_register_now",
+      "value": "立即註冊"
+    },
+    {
+      "name": "login_register_open_failed",
+      "value": "未找到可用瀏覽器，請手動前往 NoyAcg 官網註冊"
+    },
+    {
+      "name": "login_err_empty_username",
+      "value": "請輸入帳號"
+    },
+    {
+      "name": "login_err_empty_password",
+      "value": "請輸入密碼"
+    },
+    {
+      "name": "login_err_failed",
+      "value": "登入失敗，請稍後重試"
+    },
+    {
+      "name": "login_err_exception",
+      "value": "登入異常，請稍後重試"
+    },
+    {
+      "name": "theme_accent_mist_iris",
+      "value": "暮雲紫"
+    },
+    {
+      "name": "theme_accent_celadon_sage",
+      "value": "青瓷綠"
+    },
+    {
+      "name": "theme_accent_slate_blue",
+      "value": "霧靄藍"
+    },
+    {
+      "name": "theme_accent_muted_rose",
+      "value": "枯玫瑰"
+    },
+    {
+      "name": "theme_accent_amber_tea",
+      "value": "琥珀茶"
+    },
+    {
+      "name": "theme_accent_graphite",
+      "value": "石墨灰"
+    },
+    {
+      "name": "home_more",
+      "value": "更多"
+    },
+    {
+      "name": "home_recommended",
+      "value": "最新推薦"
+    },
+    {
+      "name": "pagination_page_jump",
+      "value": "%1$d/%2$d 頁 · 跳轉"
+    },
+    {
+      "name": "detail_title",
+      "value": "漫畫詳情"
+    },
+    {
+      "name": "detail_load_failed",
+      "value": "詳情載入失敗"
+    },
+    {
+      "name": "detail_check_network",
+      "value": "請檢查網路後重試"
+    },
+    {
+      "name": "detail_no_chapters",
+      "value": "暫無章節"
+    },
+    {
+      "name": "detail_no_chapters_msg",
+      "value": "伺服器未返回章節目錄，且未標明為單本作品。請稍後重試。"
+    },
+    {
+      "name": "detail_need_login",
+      "value": "需要登入 NoyAcg"
+    },
+    {
+      "name": "detail_need_login_msg",
+      "value": "工作階段已失效或未登入，登入後可查看詳情與章節"
+    },
+    {
+      "name": "detail_all_offline",
+      "value": "已全部離線下載"
+    },
+    {
+      "name": "detail_added_offline",
+      "value": "已加入離線下載"
+    },
+    {
+      "name": "detail_copied_share",
+      "value": "已複製分享內容"
+    },
+    {
+      "name": "detail_copied_link",
+      "value": "已複製連結"
+    },
+    {
+      "name": "detail_copied_nid",
+      "value": "已複製 NID"
+    },
+    {
+      "name": "detail_action_download",
+      "value": "下載"
+    },
+    {
+      "name": "detail_action_share",
+      "value": "分享"
+    },
+    {
+      "name": "detail_share_copy_link",
+      "value": "複製 Link"
+    },
+    {
+      "name": "detail_share_copy_nid",
+      "value": "複製 NID"
+    },
+    {
+      "name": "detail_share_more_apps",
+      "value": "其他應用"
+    },
+    {
+      "name": "detail_rating_fmt",
+      "value": "評分: %1$s / 5"
+    },
+    {
+      "name": "detail_rating_count_fmt",
+      "value": "(%d 人評分)"
+    },
+    {
+      "name": "detail_rating_tap",
+      "value": "點擊星星評分"
+    },
+    {
+      "name": "detail_rating_5",
+      "value": "非常好"
+    },
+    {
+      "name": "detail_year_fmt",
+      "value": "出版年份: %s"
+    },
+    {
+      "name": "detail_updated_fmt",
+      "value": "最近更新: %s"
+    },
+    {
+      "name": "detail_favorites_fmt",
+      "value": "收藏數: %d"
+    },
+    {
+      "name": "detail_alias_fmt",
+      "value": "別名: %s"
+    },
+    {
+      "name": "detail_tag_tags",
+      "value": "標籤"
+    },
+    {
+      "name": "detail_tag_characters",
+      "value": "角色"
+    },
+    {
+      "name": "detail_tag_originals",
+      "value": "原作"
+    },
+    {
+      "name": "detail_expand",
+      "value": "展開詳情"
+    },
+    {
+      "name": "detail_collapse",
+      "value": "收起詳情"
+    },
+    {
+      "name": "detail_last_read_fmt",
+      "value": "上次閱讀到：%s"
+    },
+    {
+      "name": "detail_chapter_num_fmt",
+      "value": "第 %d 話"
+    },
+    {
+      "name": "detail_start_reading",
+      "value": "開始閱讀"
+    },
+    {
+      "name": "detail_read_from_start",
+      "value": "從頭閱讀"
+    },
+    {
+      "name": "detail_continue_page_fmt",
+      "value": "繼續閱讀 · 第 %d 頁"
+    },
+    {
+      "name": "detail_recommended",
+      "value": "相關推薦"
+    },
+    {
+      "name": "detail_chapters_header_fmt",
+      "value": "章節目錄 (%1$d 話 / %2$d 分組)"
+    },
+    {
+      "name": "detail_download_all",
+      "value": "下載全部"
+    },
+    {
+      "name": "detail_order_asc",
+      "value": "正序"
+    },
+    {
+      "name": "detail_order_desc",
+      "value": "倒序"
+    },
+    {
+      "name": "detail_group_count_fmt",
+      "value": "%d 話"
+    },
+    {
+      "name": "detail_ch_reading",
+      "value": "在讀"
+    },
+    {
+      "name": "detail_ch_read",
+      "value": "已讀"
+    },
+    {
+      "name": "detail_ch_offline",
+      "value": "已離線"
+    },
+    {
+      "name": "detail_comments_header_fmt",
+      "value": "評論 (%d)"
+    },
+    {
+      "name": "detail_comments_loading",
+      "value": "正在載入評論..."
+    },
+    {
+      "name": "detail_comments_empty",
+      "value": "暫無評論"
+    },
+    {
+      "name": "detail_comments_retry_more",
+      "value": "重試載入更多"
+    },
+    {
+      "name": "detail_comments_load_more",
+      "value": "載入更多評論"
+    },
+    {
+      "name": "detail_comments_end",
+      "value": "已到底部"
+    },
+    {
+      "name": "detail_official_notice",
+      "value": "官方公告"
+    },
+    {
+      "name": "detail_user_num_fmt",
+      "value": "用戶 #%d"
+    },
+    {
+      "name": "reader_local_unavailable",
+      "value": "本地章節不可用"
+    },
+    {
+      "name": "reader_load_failed",
+      "value": "章節載入失敗"
+    },
+    {
+      "name": "reader_download_manage",
+      "value": "下載管理"
+    },
+    {
+      "name": "reader_loading_chapter",
+      "value": "正在載入章節..."
+    },
+    {
+      "name": "reader_no_pages",
+      "value": "暫無頁面"
+    },
+    {
+      "name": "reader_no_pages_msg",
+      "value": "該章節未返回可閱讀的圖片頁面"
+    },
+    {
+      "name": "reader_reading",
+      "value": "閱讀中"
+    },
+    {
+      "name": "reader_offline_chapter",
+      "value": "離線章節"
+    },
+    {
+      "name": "reader_prev_chapter",
+      "value": "上一話"
+    },
+    {
+      "name": "reader_next_chapter",
+      "value": "下一話"
+    },
+    {
+      "name": "reader_toc",
+      "value": "目錄"
+    },
+    {
+      "name": "reader_settings",
+      "value": "設定"
+    },
+    {
+      "name": "reader_settings_title",
+      "value": "閱讀設定"
+    },
+    {
+      "name": "reader_mode_label",
+      "value": "閱讀模式"
+    },
+    {
+      "name": "reader_mode_webtoon",
+      "value": "垂直滾動"
+    },
+    {
+      "name": "reader_mode_ltr",
+      "value": "由左至右"
+    },
+    {
+      "name": "reader_mode_rtl",
+      "value": "由右至左"
+    },
+    {
+      "name": "reader_orientation_label",
+      "value": "螢幕方向"
+    },
+    {
+      "name": "reader_orientation_system",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "reader_orientation_portrait",
+      "value": "鎖定直向"
+    },
+    {
+      "name": "reader_orientation_landscape",
+      "value": "鎖定橫向"
+    },
+    {
+      "name": "reader_system_brightness",
+      "value": "跟隨系統亮度"
+    },
+    {
+      "name": "reader_brightness",
+      "value": "亮度"
+    },
+    {
+      "name": "reader_volume_paging",
+      "value": "音量鍵翻頁"
+    },
+    {
+      "name": "reader_drawer_empty",
+      "value": "暫無可切換章節"
+    },
+    {
+      "name": "reader_drawer_current",
+      "value": "當前"
+    },
+    {
+      "name": "history_title",
+      "value": "歷史記錄"
+    },
+    {
+      "name": "history_empty",
+      "value": "暫無歷史記錄"
+    },
+    {
+      "name": "history_clear_title",
+      "value": "清空歷史記錄"
+    },
+    {
+      "name": "history_clear_msg",
+      "value": "確定清空全部閱讀記錄嗎？"
+    },
+    {
+      "name": "history_cleared",
+      "value": "已清空歷史記錄"
+    },
+    {
+      "name": "history_clear_failed",
+      "value": "清空失敗，請稍後重試"
+    },
+    {
+      "name": "cache_auto_cleaned_some",
+      "value": "已自動清理部分舊快取"
+    },
+    {
+      "name": "rating_confirm_title",
+      "value": "開啟限制級內容"
+    },
+    {
+      "name": "rating_confirm_msg",
+      "value": "請確認您已滿 18 週歲，並自願查看包含成人/限制級在內的全部內容。"
+    },
+    {
+      "name": "rating_confirm_btn",
+      "value": "確認已滿 18 歲並開啟"
+    },
+    {
+      "name": "rating_switch_failed",
+      "value": "內容類型切換失敗"
+    },
+    {
+      "name": "rating_toast_all_ages",
+      "value": "已切換至僅全年齡內容，返回首頁自動重新整理"
+    },
+    {
+      "name": "rating_toast_adult",
+      "value": "已切換至僅限制級內容，返回首頁自動重新整理"
+    },
+    {
+      "name": "rating_toast_both",
+      "value": "已切換至顯示全部內容，返回首頁自動重新整理"
+    },
+    {
+      "name": "settings_log_count_fmt",
+      "value": "%d 條"
+    },
+    {
+      "name": "settings_configure",
+      "value": "前往設定"
+    },
+    {
+      "name": "settings_cache_clearing_short",
+      "value": "清理中..."
+    },
+    {
+      "name": "settings_cache_calc_short",
+      "value": "計算中..."
+    },
+    {
+      "name": "history_page_progress_fmt",
+      "value": "%1$d/%2$d頁"
+    },
+    {
+      "name": "history_page_single_fmt",
+      "value": "第%d頁"
+    },
+    {
+      "name": "offline_empty_title",
+      "value": "暫無已下載漫畫"
+    },
+    {
+      "name": "offline_empty_msg",
+      "value": "下載完成的漫畫會集中展示在這裡，無網路也能隨時閱讀"
+    },
+    {
+      "name": "offline_go_downloads",
+      "value": "前往下載管理"
+    },
+    {
+      "name": "offline_local_source",
+      "value": "本地離線資源"
+    },
+    {
+      "name": "offline_total_chapters_fmt",
+      "value": "共 %d 話"
+    },
+    {
+      "name": "offline_downloaded_summary_fmt",
+      "value": "已下載 %1$d 話 · %2$s"
+    },
+    {
+      "name": "offline_collapse",
+      "value": "收起"
+    },
+    {
+      "name": "offline_chapters",
+      "value": "選話"
+    },
+    {
+      "name": "offline_pages_fmt",
+      "value": "%d 頁"
+    },
+    {
+      "name": "offline_deleted_toast",
+      "value": "已刪除該漫畫本地資源"
+    },
+    {
+      "name": "download_summary_fmt",
+      "value": "進行中 %1$d · 已完成 %2$d"
+    },
+    {
+      "name": "download_pages_progress_fmt",
+      "value": "%1$d / %2$s 張 · %3$d%%"
+    },
+    {
+      "name": "download_pages_failed_fmt",
+      "value": " · 失敗 %d 張"
+    },
+    {
+      "name": "download_chapter_num_fmt",
+      "value": "章節 #%s"
+    },
+    {
+      "name": "auth_err_invalid_credentials",
+      "value": "帳號或密碼錯誤"
+    },
+    {
+      "name": "auth_err_empty",
+      "value": "請輸入帳號與密碼"
+    },
+    {
+      "name": "auth_err_forbidden",
+      "value": "輸入內容包含不允許的字元"
+    },
+    {
+      "name": "auth_err_server",
+      "value": "登入未生效，請稍後重試"
+    },
+    {
+      "name": "auth_err_network",
+      "value": "網路連線異常，請稍後重試"
+    },
+    {
+      "name": "auth_err_cookie_missing",
+      "value": "登入成功但未建立工作階段 Cookie，請檢查網路後重試"
+    },
+    {
+      "name": "auth_err_session_rejected",
+      "value": "工作階段驗證失敗（Cookie 已建立但伺服器未認可）"
+    },
+    {
+      "name": "auth_session_required",
+      "value": "登入已失效或未登入：NoyAcg 需要帳號工作階段才能讀取資料"
+    },
+    {
+      "name": "checkin_streak_label",
+      "value": "連續\\n簽到"
+    },
+    {
+      "name": "checkin_days_unit",
+      "value": "天"
+    },
+    {
+      "name": "checkin_week_fmt",
+      "value": "本週 %1$d/%2$d 天"
+    },
+    {
+      "name": "checkin_bonus_banner",
+      "value": "每簽到 7 天可獲得額外積分！"
+    },
+    {
+      "name": "checkin_bonus_toast",
+      "value": "連續簽到每滿 7 天可額外獲得積分獎勵"
+    },
+    {
+      "name": "checkin_reminder_title",
+      "value": "簽到提醒"
+    },
+    {
+      "name": "checkin_reminder_desc",
+      "value": "每日定時提醒你簽到"
+    },
+    {
+      "name": "checkin_reminder_time",
+      "value": "提醒時間"
+    },
+    {
+      "name": "checkin_reminder_on_fmt",
+      "value": "已開啟每日簽到提醒（%s）"
+    },
+    {
+      "name": "checkin_reminder_off",
+      "value": "已關閉簽到提醒"
+    },
+    {
+      "name": "checkin_reminder_updated_fmt",
+      "value": "提醒時間已設為 %s"
+    },
+    {
+      "name": "checkin_btn_done",
+      "value": "已簽到"
+    },
+    {
+      "name": "checkin_btn_doing",
+      "value": "簽到中..."
+    },
+    {
+      "name": "checkin_btn_do",
+      "value": "立即簽到"
+    },
+    {
+      "name": "checkin_footer_hint",
+      "value": "可獲得積分或更多隨機禮品"
+    },
+    {
+      "name": "checkin_success_streak_fmt",
+      "value": "簽到成功，連續 %d 天"
+    },
+    {
+      "name": "checkin_success_today",
+      "value": "今日簽到完成"
+    },
+    {
+      "name": "checkin_session_expired",
+      "value": "登入已過期，請重新登入"
+    },
+    {
+      "name": "checkin_failed_retry",
+      "value": "簽到失敗，請稍後重試"
+    },
+    {
+      "name": "log_export_cancelled",
+      "value": "已取消匯出"
+    },
+    {
+      "name": "net_export_success",
+      "value": "網路日誌已匯出"
+    },
+    {
+      "name": "diag_export_success",
+      "value": "錯誤報告已匯出"
+    },
+    {
+      "name": "community_detail_all_comments_fmt",
+      "value": "全部評論 (%d)"
+    },
+    {
+      "name": "update_checking",
+      "value": "檢查中..."
+    },
+    {
+      "name": "update_new_version_title_fmt",
+      "value": "發現新版本 v%s"
+    },
+    {
+      "name": "update_default_notes",
+      "value": "包含功能最佳化與穩定性改進，建議前往 GitHub 下載最新版本。"
+    },
+    {
+      "name": "update_github_download",
+      "value": "GitHub 下載"
+    },
+    {
+      "name": "update_up_to_date_fmt",
+      "value": "目前已是最新版本 (v%s)"
+    },
+    {
+      "name": "update_check_failed",
+      "value": "檢查更新失敗，請稍後重試"
+    },
+    {
+      "name": "update_open_browser_failed",
+      "value": "未找到可用瀏覽器，請手動前往 GitHub Releases 下載"
+    },
+    {
+      "name": "about_version_fmt",
+      "value": "版本 %s"
+    },
+    {
+      "name": "about_repo_label",
+      "value": "專案倉庫"
+    },
+    {
+      "name": "about_deps_title",
+      "value": "第三方依賴"
+    },
+    {
+      "name": "about_deps_body",
+      "value": "- HarmonyOS SDK（ArkTS / ArkUI / HDS Kit / Core File Kit / Localization Kit）— Huawei / OpenHarmony SDK License\n- @ohos/hypium & @ohos/hamock — Apache License 2.0（僅用於本地單元測試）\n\n除上述官方基礎套件外，應用未引入任何第三方閉源商業 SDK 或網路/UI 封裝庫。"
+    },
+    {
+      "name": "about_acks_title",
+      "value": "開源專案致謝"
+    },
+    {
+      "name": "about_acks_body",
+      "value": "本專案基於自主編寫的原生 ArkTS 程式碼實作，未直接移植外部第三方開源專案原始碼。本倉庫自身遵循 GNU General Public License v3.0 (GPL-3.0) 開源授權，所有實際依賴庫均保留其原始授權條款要求。"
+    },
+    {
+      "name": "about_inspiration_title",
+      "value": "設計靈感"
+    },
+    {
+      "name": "about_inspiration_body",
+      "value": "視覺與互動設計僅參考 HarmonyOS Design 規範及主流現代行動端閱讀器的卡片層級與閱讀體驗，未使用上述參考對象的任何原始碼。"
+    },
+    {
+      "name": "settings_view_logs",
+      "value": "查看日誌"
+    },
+    {
+      "name": "settings_check_update",
+      "value": "檢查更新"
+    },
+    {
+      "name": "settings_current_version_fmt",
+      "value": "目前版本 v%s"
+    },
+    {
+      "name": "settings_check_update_btn",
+      "value": "檢查更新"
+    },
+    {
+      "name": "settings_checking_update",
+      "value": "檢查中..."
+    },
+    {
+      "name": "reader_double_tap_zoom",
+      "value": "雙擊縮放"
+    },
+    {
+      "name": "reader_double_tap_zoom_delay_hint",
+      "value": "已開啟雙擊縮放，呼出選單可能會有輕微延遲"
+    },
+    {
+      "name": "reader_page_turn_animation",
+      "value": "翻頁動畫"
+    }
+  ]
+}
